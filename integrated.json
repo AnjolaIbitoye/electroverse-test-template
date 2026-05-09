@@ -1,0 +1,2601 @@
+{
+  "operators": [
+    {
+      "operator_reference": "3446",
+      "name": "Operator 3446"
+    },
+    {
+      "operator_reference": "1",
+      "name": "Operator 1"
+    },
+    {
+      "operator_reference": "32",
+      "name": "Operator 32"
+    },
+    {
+      "operator_reference": "136",
+      "name": "Operator 136"
+    },
+    {
+      "operator_reference": "3",
+      "name": "Operator 3"
+    },
+    {
+      "operator_reference": "3392",
+      "name": "Operator 3392"
+    },
+    {
+      "operator_reference": "20",
+      "name": "Operator 20"
+    },
+    {
+      "operator_reference": "25",
+      "name": "Operator 25"
+    },
+    {
+      "operator_reference": "16",
+      "name": "Operator 16"
+    },
+    {
+      "operator_reference": "19",
+      "name": "Operator 19"
+    },
+    {
+      "operator_reference": "45",
+      "name": "Operator 45"
+    },
+    {
+      "operator_reference": "3357",
+      "name": "Operator 3357"
+    }
+  ],
+  "countries": [
+    {
+      "country_reference": "1",
+      "name": "Country 1"
+    }
+  ],
+  "locations": [
+    {
+      "location_reference": "3EA6A5B2-332D-431F-A6A8-8750947908E8",
+      "operator_reference": "3446",
+      "country_reference": "1",
+      "postal_code": "CM1 2XB",
+      "coordinates": {
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "evses": [
+        {
+          "physical_identifier": "SOCKET 1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "SOCKET 2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7D73C992-4C7B-4F91-8D61-D28248651237",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "SW1A 2BN",
+      "coordinates": {
+        "lat": 51.507291,
+        "lon": -0.128896
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "ECB42C5B-FA3B-4E87-B19A-F839A277A047",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "SW1A 2TS",
+      "coordinates": {
+        "lat": 51.507099,
+        "lon": -0.130117
+      },
+      "evses": [
+        {
+          "physical_identifier": "ECB42C5B-FA3B-4E87-B19A-F839A277A047-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "ECB42C5B-FA3B-4E87-B19A-F839A277A047-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "40813017-1F87-470B-ABDA-6DBA8C838B28",
+      "operator_reference": "136",
+      "country_reference": "1",
+      "postal_code": "WC2R 0QS",
+      "coordinates": {
+        "lat": 51.50890313863235,
+        "lon": -0.12553378823179173
+      },
+      "evses": [
+        {
+          "physical_identifier": "40813017-1F87-470B-ABDA-6DBA8C838B28-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "230A03DE-1045-418A-BDDC-A05CD952A0A3",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2H 7DT",
+      "coordinates": {
+        "lat": 51.509162,
+        "lon": -0.13065
+      },
+      "evses": [
+        {
+          "physical_identifier": "230A03DE-1045-418A-BDDC-A05CD952A0A3-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "30B13C4A-F7DC-4EFC-B160-5FEC72622B08",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1A 2BD",
+      "coordinates": {
+        "lat": 51.506477,
+        "lon": -0.12377
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-81203",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2N 4HX",
+      "coordinates": {
+        "lat": 51.510475,
+        "lon": -0.126729
+      },
+      "evses": [
+        {
+          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_33"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_2"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 43,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "70CC0782-8337-4055-B14A-61721D2AECBF",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC2N 4DQ",
+      "coordinates": {
+        "lat": 51.510492,
+        "lon": -0.125554
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010125",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "DA75F290-ECB2-4A09-9BD1-0060487F98E4",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1Y 5AD",
+      "coordinates": {
+        "lat": 51.506042,
+        "lon": -0.133653
+      },
+      "evses": [
+        {
+          "physical_identifier": "DA75F290-ECB2-4A09-9BD1-0060487F98E4-evse-1",
+          "status": "UNKNOWN",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "371495F1-C527-4275-8BCF-94DEAE4DDCF6",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "SW1Y 4PD",
+      "coordinates": {
+        "lat": 51.507729,
+        "lon": -0.13457
+      },
+      "evses": [
+        {
+          "physical_identifier": "371495F1-C527-4275-8BCF-94DEAE4DDCF6-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "562275A5-C298-4F05-947C-5E769F4767AF",
+      "operator_reference": "20",
+      "country_reference": "1",
+      "postal_code": "SW1Y 4PD",
+      "coordinates": {
+        "lat": 51.50773,
+        "lon": -0.13457
+      },
+      "evses": [
+        {
+          "physical_identifier": "562275A5-C298-4F05-947C-5E769F4767AF-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "360CD4CE-1DD9-4CB2-AB3D-7AE118501C99",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "WC2H 7PU",
+      "coordinates": {
+        "lat": 51.512046,
+        "lon": -0.129753
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "21F9D8AB-4888-4E1A-98D3-16FE972DC818",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC2H 9NY",
+      "coordinates": {
+        "lat": 51.512373,
+        "lon": -0.12711
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100003759",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "603AF15D-9588-4753-827F-2F325852D64F",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2H 7PR",
+      "coordinates": {
+        "lat": 51.512299,
+        "lon": -0.129615
+      },
+      "evses": [
+        {
+          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 43,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-4",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_33"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-5",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "9A86746E-20E6-4790-882A-FE201F3F070A",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2E 7HE",
+      "coordinates": {
+        "lat": 51.5109927464186,
+        "lon": -0.122040510177612
+      },
+      "evses": [
+        {
+          "physical_identifier": "002504",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "002505",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C550B5B6-4F77-48E4-9B8A-DDAB1E231CD1",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2H 7PR",
+      "coordinates": {
+        "lat": 51.512699,
+        "lon": -0.130012
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "5AC37E88-5A1B-4878-B91B-9A53708FE889",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1A 2AH",
+      "coordinates": {
+        "lat": 51.501845,
+        "lon": -0.127892
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100002746",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "EA8CE28B-859D-40B5-AAEF-F9AFC806A155",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2H 7PR",
+      "coordinates": {
+        "lat": 51.512798,
+        "lon": -0.130113
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "1302C3FB-CB4D-4B9D-961A-C707A149F35B",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "W1F 0LA",
+      "coordinates": {
+        "lat": 51.511865,
+        "lon": -0.134884
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "224F76EA-B92A-4287-802B-4B97E0F31642",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1F 9UN",
+      "coordinates": {
+        "lat": 51.511428,
+        "lon": -0.135708
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010123",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "BA1B5662-7014-498C-BEF8-14A2FABF4C05",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2E 7DU",
+      "coordinates": {
+        "lat": 51.511902,
+        "lon": -0.119569
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "481444C6-D487-44F5-816E-C4CEF084A540",
+      "operator_reference": "16",
+      "country_reference": "1",
+      "postal_code": "SE1 8XU",
+      "coordinates": {
+        "lat": 51.5052551,
+        "lon": -0.1168898
+      },
+      "evses": [
+        {
+          "physical_identifier": "481444C6-D487-44F5-816E-C4CEF084A540-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 0,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "1BA80916-3004-4F34-8D59-EF33CF855F80",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1H 9AB",
+      "coordinates": {
+        "lat": 51.501,
+        "lon": -0.13328
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100009991",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "6C0ED007-1E69-41CB-8871-BBA323760515",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC2E 7DU",
+      "coordinates": {
+        "lat": 51.51229585,
+        "lon": -0.119148037008377
+      },
+      "evses": [
+        {
+          "physical_identifier": "6C0ED007-1E69-41CB-8871-BBA323760515-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "6C0ED007-1E69-41CB-8871-BBA323760515-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "8EF5A223-130A-489E-874B-2182B74CBB3F",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1F 9JT",
+      "coordinates": {
+        "lat": 51.511818,
+        "lon": -0.137617
+      },
+      "evses": [
+        {
+          "physical_identifier": "8EF5A223-130A-489E-874B-2182B74CBB3F-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "0308E9FB-6333-48F0-B6C9-217F723C42E6",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1H 9BU",
+      "coordinates": {
+        "lat": 51.500544,
+        "lon": -0.133597
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100007820",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "487958B0-434E-424B-ADE1-94441CDA8448",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "W1F 0DF",
+      "coordinates": {
+        "lat": 51.513535,
+        "lon": -0.135519
+      },
+      "evses": [
+        {
+          "physical_identifier": "487958B0-434E-424B-ADE1-94441CDA8448-evse-1",
+          "status": "UNKNOWN",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "26A5979D-37CE-436E-9935-7BB5ACB9E95F",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "WC2b 5NT",
+      "coordinates": {
+        "lat": 51.51422,
+        "lon": -0.12136
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "41D4D0F7-F269-4901-8A8F-8095D7C08AD9",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1D 3QR",
+      "coordinates": {
+        "lat": 51.514955000000526,
+        "lon": -0.13209300000221447
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010280",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "4224D43B-637D-4CA1-A07A-0566405A176C",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1F 8WG",
+      "coordinates": {
+        "lat": 51.514418,
+        "lon": -0.134767
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010174",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "F86BEBE0-D09A-4BCF-A522-3FEA4BE90618",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1D 3BX",
+      "coordinates": {
+        "lat": 51.515133,
+        "lon": -0.132938
+      },
+      "evses": [
+        {
+          "physical_identifier": "F86BEBE0-D09A-4BCF-A522-3FEA4BE90618-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7E72BEA8-C4D3-4502-AEE2-4BC4208723A0",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "W1F 7SJ",
+      "coordinates": {
+        "lat": 51.513645,
+        "lon": -0.137168
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "5C991D12-51CB-470C-928F-EA70FB5D9631",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "",
+      "coordinates": {
+        "lat": 51.515559717462054,
+        "lon": -0.13189368249868494
+      },
+      "evses": [
+        {
+          "physical_identifier": "5C991D12-51CB-470C-928F-EA70FB5D9631-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1S 3AF",
+      "coordinates": {
+        "lat": 51.510632,
+        "lon": -0.14051870000003
+      },
+      "evses": [
+        {
+          "physical_identifier": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "2D100DEA-44F6-4217-AF0E-116F3963CA2E",
+      "operator_reference": "20",
+      "country_reference": "1",
+      "postal_code": "SE1 8XU",
+      "coordinates": {
+        "lat": 51.50463,
+        "lon": -0.11455
+      },
+      "evses": [
+        {
+          "physical_identifier": "2D100DEA-44F6-4217-AF0E-116F3963CA2E-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1F 7NQ",
+      "coordinates": {
+        "lat": 51.514198,
+        "lon": -0.136689
+      },
+      "evses": [
+        {
+          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_2"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-4",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_33"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-5",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 43,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC",
+      "operator_reference": "19",
+      "country_reference": "1",
+      "postal_code": "SE1 7UT",
+      "coordinates": {
+        "lat": 51.5014098,
+        "lon": -0.117240600000059
+      },
+      "evses": [
+        {
+          "physical_identifier": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "F2B52BCB-BF4F-4CA5-B39A-3F03C0B47A33",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1D 3QH",
+      "coordinates": {
+        "lat": 51.516,
+        "lon": -0.13187
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100008497",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "D9A4BD23-8B48-4A79-96DE-E799A909DD34",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "WC1A 1DD",
+      "coordinates": {
+        "lat": 51.516312,
+        "lon": -0.129476
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "8014CE71-BDB1-4991-8BAC-1831FBC182A8",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC2B 5AZ",
+      "coordinates": {
+        "lat": 51.515614,
+        "lon": -0.120802
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100005049",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "0E89217E-D4EB-4252-91AF-D280B73B0157",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1S 4BS",
+      "coordinates": {
+        "lat": 51.5096839873231,
+        "lon": -0.142478942871094
+      },
+      "evses": [
+        {
+          "physical_identifier": "0E89217E-D4EB-4252-91AF-D280B73B0157-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "0E89217E-D4EB-4252-91AF-D280B73B0157-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "9EFDFCE4-FD17-465C-981E-73CC5ADB4E9E",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "",
+      "coordinates": {
+        "lat": 51.51232110346069,
+        "lon": -0.11432518712229012
+      },
+      "evses": [
+        {
+          "physical_identifier": "9EFDFCE4-FD17-465C-981E-73CC5ADB4E9E-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "AB8BD1CA-A6BB-4455-B045-82322ADFF12F",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "SW1P 3RX",
+      "coordinates": {
+        "lat": 51.4977,
+        "lon": -0.126443
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7BD66ADF-0C05-4308-A33A-191C7885A273",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2B 6TE",
+      "coordinates": {
+        "lat": 51.5151901467396,
+        "lon": -0.118159841802967
+      },
+      "evses": [
+        {
+          "physical_identifier": "7BD66ADF-0C05-4308-A33A-191C7885A273-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "7BD66ADF-0C05-4308-A33A-191C7885A273-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "DE90779D-6C14-405B-B430-2772D82DC725",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "SW1P 3RX",
+      "coordinates": {
+        "lat": 51.4975281,
+        "lon": -0.127408500000001
+      },
+      "evses": [
+        {
+          "physical_identifier": "DE90779D-6C14-405B-B430-2772D82DC725-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "DE90779D-6C14-405B-B430-2772D82DC725-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "33904134-A1FF-4BC5-963E-BFA23772A4BE",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "SW1P 3RX",
+      "coordinates": {
+        "lat": 51.497528,
+        "lon": -0.127409
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "895E7506-918C-41E5-8384-CF4413B172A8",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SE1 9PP",
+      "coordinates": {
+        "lat": 51.5068393098305,
+        "lon": -0.111933946609497
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-91623",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "PG-91683",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "PG-91553",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2R 2PG",
+      "coordinates": {
+        "lat": 51.5116935,
+        "lon": -0.113055249442683
+      },
+      "evses": [
+        {
+          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C77AE08F-B59F-4C54-A147-5678C9CF2FFF",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1J 8NR",
+      "coordinates": {
+        "lat": 51.50908,
+        "lon": -0.143872
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010180",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "DF7AA0C7-9D87-47D7-8C43-9F848BBAE271",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1H 0QU",
+      "coordinates": {
+        "lat": 51.498522,
+        "lon": -0.13584
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100004892",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "CE190220-0567-41A9-895B-D15CF94D9F56",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC1B 3AJ",
+      "coordinates": {
+        "lat": 51.517603,
+        "lon": -0.129837
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100000674",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "5496B28B-B2CD-4D2C-A5E5-EFDEEAF39E9A",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2R 2PG",
+      "coordinates": {
+        "lat": 51.511407,
+        "lon": -0.112471
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7BAFE918-B4BE-4CF4-8F46-B1BBA62A968B",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1S 2AT",
+      "coordinates": {
+        "lat": 51.512568,
+        "lon": -0.142311
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010485",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "19FFED09-EC70-4EDB-BB36-226693205EC5",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC1B 3AJ",
+      "coordinates": {
+        "lat": 51.517782,
+        "lon": -0.130023
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100001896",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "67962659-8C91-4738-A9FF-ED3B98275746",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 3LN",
+      "coordinates": {
+        "lat": 51.496896,
+        "lon": -0.127436
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100004896",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2A 3PE",
+      "coordinates": {
+        "lat": 51.5152860135492,
+        "lon": -0.116643905639648
+      },
+      "evses": [
+        {
+          "physical_identifier": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "712FE7BB-E78D-424A-A443-924D399814CD",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 3NQ",
+      "coordinates": {
+        "lat": 51.496887,
+        "lon": -0.127973
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100002631",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "40663BBF-D02B-4171-AD5D-2020C5D3A729",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 3LT",
+      "coordinates": {
+        "lat": 51.496895,
+        "lon": -0.128714
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100002552",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "4586EAA7-C0AD-4EBF-92D7-AD81359703B2",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "WC2A 3PE",
+      "coordinates": {
+        "lat": 51.515375,
+        "lon": -0.116745
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-81201",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "09448835-8408-4DA1-B9B0-FF3783AC3162",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1T 1AL",
+      "coordinates": {
+        "lat": 51.517475,
+        "lon": -0.133047
+      },
+      "evses": [
+        {
+          "physical_identifier": "camden-stephensstreet-1-1_0",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "9A0AD473-8D55-432D-9844-73C65895B63E",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 2BX",
+      "coordinates": {
+        "lat": 51.496866,
+        "lon": -0.129591
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100003299",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "A69BFE5E-CD90-4349-8A2A-9D9DDB0842D0",
+      "operator_reference": "20",
+      "country_reference": "1",
+      "postal_code": "SE1 9PU",
+      "coordinates": {
+        "lat": 51.50542,
+        "lon": -0.11099
+      },
+      "evses": [
+        {
+          "physical_identifier": "A69BFE5E-CD90-4349-8A2A-9D9DDB0842D0-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "EA04C6EE-07AD-4AC8-BD68-533810D32B02",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC1B 3AH",
+      "coordinates": {
+        "lat": 51.51798,
+        "lon": -0.130288
+      },
+      "evses": [
+        {
+          "physical_identifier": "GB*BPL*E001923",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "GB*BPL*E001922",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "42D73F00-98D9-4256-8853-3F5F02ABC1E7",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1J 6EG",
+      "coordinates": {
+        "lat": 51.509495,
+        "lon": -0.144767
+      },
+      "evses": [
+        {
+          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "3B6E9D8A-9785-4773-BA27-5E3C103E7373",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC1A 2HS",
+      "coordinates": {
+        "lat": 51.518054,
+        "lon": -0.12494
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100005044",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "DF5EBC96-9E57-49C2-AB2C-057CA7342814",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1J 6ES",
+      "coordinates": {
+        "lat": 51.509472,
+        "lon": -0.14487
+      },
+      "evses": [
+        {
+          "physical_identifier": "DF5EBC96-9E57-49C2-AB2C-057CA7342814-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "CA6188C0-43E0-4810-ABFE-AE98A2F8FFEF",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC1A 1JP",
+      "coordinates": {
+        "lat": 51.5181387,
+        "lon": -0.1255737
+      },
+      "evses": [
+        {
+          "physical_identifier": "CA6188C0-43E0-4810-ABFE-AE98A2F8FFEF-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "1C54E594-DA1D-4A52-B889-FB871D93A7F0",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1E 6AA",
+      "coordinates": {
+        "lat": 51.497912,
+        "lon": -0.136349
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-81200",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "PG-81202",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C0C55FA1-6A01-4C92-861D-E18C053BD68F",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1P 2BN",
+      "coordinates": {
+        "lat": 51.496653,
+        "lon": -0.13111
+      },
+      "evses": [
+        {
+          "physical_identifier": "C0C55FA1-6A01-4C92-861D-E18C053BD68F-evse-1",
+          "status": "UNKNOWN",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "6B26E5BF-067C-4388-88EC-203321650BDC",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC1A 2JU",
+      "coordinates": {
+        "lat": 51.518144,
+        "lon": -0.12398
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100005022",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "62077580-E643-423E-9AB8-F6C3A8FECEDB",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1S 1FH",
+      "coordinates": {
+        "lat": 51.512844,
+        "lon": -0.143349
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100006587",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "FC063039-5EED-409C-B690-112FF3377CB0",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 2JX",
+      "coordinates": {
+        "lat": 51.496731,
+        "lon": -0.132808
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100005971",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "45552D66-A4FE-4816-AD57-153733C74A04",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "WC1A 2DB",
+      "coordinates": {
+        "lat": 51.517947,
+        "lon": -0.121831
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100005047",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "8FB18C35-6765-4379-B4BB-11A48B609B9C",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1J 6EG",
+      "coordinates": {
+        "lat": 51.509871967635604,
+        "lon": -0.1453217303424026
+      },
+      "evses": [
+        {
+          "physical_identifier": "8FB18C35-6765-4379-B4BB-11A48B609B9C-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C5A6419C-2912-4AB5-A24C-35846C12570B",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1T 3LN",
+      "coordinates": {
+        "lat": 51.517235,
+        "lon": -0.136815
+      },
+      "evses": [
+        {
+          "physical_identifier": "C5A6419C-2912-4AB5-A24C-35846C12570B-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "C5A6419C-2912-4AB5-A24C-35846C12570B-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "DF4BCBE0-3268-4F9B-936D-3EE089018561",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SE1 7RJ",
+      "coordinates": {
+        "lat": 51.500361,
+        "lon": -0.113099
+      },
+      "evses": [
+        {
+          "physical_identifier": "DF4BCBE0-3268-4F9B-936D-3EE089018561-evse-1",
+          "status": "UNKNOWN",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C292F659-7364-4D11-9D40-11F665E3FB5D",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 2BQ",
+      "coordinates": {
+        "lat": 51.496,
+        "lon": -0.13085
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010039",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "31C5F5F6-EF8D-42EB-8F52-CC9EBF40D6E6",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1J 5DJ",
+      "coordinates": {
+        "lat": 51.508257,
+        "lon": -0.146484
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010059",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "ECE1E205-8448-4AFC-A9D1-05CDEAA0072A",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1B 2LY",
+      "coordinates": {
+        "lat": 51.514586,
+        "lon": -0.142564
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010493",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C063E4E0-DE5C-438C-A47E-DE753C2CB0D1",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1K 3QU",
+      "coordinates": {
+        "lat": 51.511441,
+        "lon": -0.145558
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010256",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "44D2C91A-77DE-4495-A707-7D047278D3D4",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1J 7AF",
+      "coordinates": {
+        "lat": 51.506001,
+        "lon": -0.146775
+      },
+      "evses": [
+        {
+          "physical_identifier": "44D2C91A-77DE-4495-A707-7D047278D3D4-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "A0E093CE-5A2F-473E-B35E-465FB0A4C39F",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1K 4PZ",
+      "coordinates": {
+        "lat": 51.512165,
+        "lon": -0.145341
+      },
+      "evses": [
+        {
+          "physical_identifier": "estminster-grosvenorstreet-1_0",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 22,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "E7C091A1-95DC-4CDD-9407-8FE6C0BCD9A8",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "WC1A 2RJ",
+      "coordinates": {
+        "lat": 51.5190133,
+        "lon": -0.12224600000001828
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "4224FC6B-7290-4E56-90E3-588EF92EC288",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1E 6NP",
+      "coordinates": {
+        "lat": 51.498965,
+        "lon": -0.141783
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100007819",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1T 3NE",
+      "coordinates": {
+        "lat": 51.518002,
+        "lon": -0.137539
+      },
+      "evses": [
+        {
+          "physical_identifier": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "F0D03BD4-7C2B-46A1-A3B3-F9F9C428CA4F",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "WC2A 3TL",
+      "coordinates": {
+        "lat": 51.51643,
+        "lon": -0.114483
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "0C02BBAA-EA5F-4A32-89E5-CEB7B720A721",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "W1K 4PS",
+      "coordinates": {
+        "lat": 51.511983,
+        "lon": -0.146098
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010321",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "4DB57CF5-EAA0-4F89-BDE3-00442346CB7F",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "W1K 3QQ",
+      "coordinates": {
+        "lat": 51.510944,
+        "lon": -0.146848
+      },
+      "evses": [
+        {
+          "physical_identifier": "4DB57CF5-EAA0-4F89-BDE3-00442346CB7F-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "E4FC7A33-64A0-4B3C-A279-E361E0DF0573",
+      "operator_reference": "1",
+      "country_reference": "1",
+      "postal_code": "W1K 3QQ",
+      "coordinates": {
+        "lat": 51.510944,
+        "lon": -0.146848
+      },
+      "evses": []
+    },
+    {
+      "location_reference": "65DA711C-489E-43EA-9292-7500D7C6EFB2",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 1AB",
+      "coordinates": {
+        "lat": 51.495919,
+        "lon": -0.135237
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100010606",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "70BB3F6D-EE86-4C3D-9394-02E2DCFFE5ED",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1E 5JL",
+      "coordinates": {
+        "lat": 51.497297,
+        "lon": -0.139462
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-81145",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "D80725B8-C3EC-4EE1-9680-B9266B8BF034",
+      "operator_reference": "3392",
+      "country_reference": "1",
+      "postal_code": "SW1P 1AB",
+      "coordinates": {
+        "lat": 51.496,
+        "lon": -0.13586
+      },
+      "evses": [
+        {
+          "physical_identifier": "suby1100008178",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 5,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "984DC307-CC42-44B2-8C94-0BA958E60933",
+      "operator_reference": "45",
+      "country_reference": "1",
+      "postal_code": "SW1P 3RE",
+      "coordinates": {
+        "lat": 51.4948439,
+        "lon": -0.12867
+      },
+      "evses": [
+        {
+          "physical_identifier": "984DC307-CC42-44B2-8C94-0BA958E60933-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "9BC1DFFC-00E3-4B92-BB2D-F38CEF67D301",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "WC2A 3PD",
+      "coordinates": {
+        "lat": 51.5175,
+        "lon": -0.115606
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 3,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "6D490634-CE4C-4398-9BD3-DEE3CE3A6B77",
+      "operator_reference": "3",
+      "country_reference": "1",
+      "postal_code": "SW1P 4DR",
+      "coordinates": {
+        "lat": 51.494767503224,
+        "lon": -0.130060857177789
+      },
+      "evses": [
+        {
+          "physical_identifier": "PG-81153",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22",
+      "operator_reference": "32",
+      "country_reference": "1",
+      "postal_code": "SW1P 4DR",
+      "coordinates": {
+        "lat": 51.494678,
+        "lon": -0.129862
+      },
+      "evses": [
+        {
+          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_33"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_2"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-3",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 43,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1T 2NH",
+      "coordinates": {
+        "lat": 51.519293,
+        "lon": -0.135446
+      },
+      "evses": [
+        {
+          "physical_identifier": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "7B8DC27A-1135-4139-AF1E-99C50AFF67A7",
+      "operator_reference": "3357",
+      "country_reference": "1",
+      "postal_code": "SW1P 2DZ",
+      "coordinates": {
+        "lat": 51.494868,
+        "lon": -0.132312
+      },
+      "evses": [
+        {
+          "physical_identifier": "CHAdeMO",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_2"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "CCS",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 50,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "AC43",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 43,
+              "standard": "TYPE_ID_1036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "0C6C9919-2DF7-4213-840B-1BAB4D8FAA0D",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "SW1P 1QP",
+      "coordinates": {
+        "lat": 51.495977,
+        "lon": -0.137269
+      },
+      "evses": [
+        {
+          "physical_identifier": "1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_3"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "location_reference": "B3622BC7-F013-42B9-9845-68D883336884",
+      "operator_reference": "25",
+      "country_reference": "1",
+      "postal_code": "W1B 1AD",
+      "coordinates": {
+        "lat": 51.5201029380956,
+        "lon": -0.131020545959473
+      },
+      "evses": [
+        {
+          "physical_identifier": "B3622BC7-F013-42B9-9845-68D883336884-evse-1",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 7,
+              "standard": "TYPE_ID_25"
+            }
+          ]
+        },
+        {
+          "physical_identifier": "B3622BC7-F013-42B9-9845-68D883336884-evse-2",
+          "status": "AVAILABLE",
+          "connectors": [
+            {
+              "power": 4,
+              "standard": "TYPE_ID_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
