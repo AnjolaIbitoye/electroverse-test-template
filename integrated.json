@@ -1,2601 +1,4829 @@
-{
-  "operators": [
-    {
-      "operator_reference": "3446",
-      "name": "Operator 3446"
+[
+  {
+    "address": "Pennys Walk",
+    "charging_when_closed": false,
+    "city": "Ferndown",
+    "coordinates": {
+      "latitude": "50.8011300",
+      "longitude": "-1.8931400"
     },
-    {
-      "operator_reference": "1",
-      "name": "Operator 1"
-    },
-    {
-      "operator_reference": "32",
-      "name": "Operator 32"
-    },
-    {
-      "operator_reference": "136",
-      "name": "Operator 136"
-    },
-    {
-      "operator_reference": "3",
-      "name": "Operator 3"
-    },
-    {
-      "operator_reference": "3392",
-      "name": "Operator 3392"
-    },
-    {
-      "operator_reference": "20",
-      "name": "Operator 20"
-    },
-    {
-      "operator_reference": "25",
-      "name": "Operator 25"
-    },
-    {
-      "operator_reference": "16",
-      "name": "Operator 16"
-    },
-    {
-      "operator_reference": "19",
-      "name": "Operator 19"
-    },
-    {
-      "operator_reference": "45",
-      "name": "Operator 45"
-    },
-    {
-      "operator_reference": "3357",
-      "name": "Operator 3357"
-    }
-  ],
-  "countries": [
-    {
-      "country_reference": "1",
-      "name": "Country 1"
-    }
-  ],
-  "locations": [
-    {
-      "location_reference": "3EA6A5B2-332D-431F-A6A8-8750947908E8",
-      "operator_reference": "3446",
-      "country_reference": "1",
-      "postal_code": "CM1 2XB",
-      "coordinates": {
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "evses": [
-        {
-          "physical_identifier": "SOCKET 1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "Arne-Robb-A",
+            "last_updated": "2024-02-28T15:14:32Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2212"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.8011300",
+          "longitude": "-1.8931400"
         },
-        {
-          "physical_identifier": "SOCKET 2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "7D73C992-4C7B-4F91-8D61-D28248651237",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "SW1A 2BN",
-      "coordinates": {
-        "lat": 51.507291,
-        "lon": -0.128896
+        "directions": null,
+        "evse_id": null,
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-02-28T15:14:32Z",
+        "parking_restrictions": null,
+        "physical_reference": "Arne-Robb",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "Arne-Robb-A"
       },
-      "evses": []
-    },
-    {
-      "location_reference": "ECB42C5B-FA3B-4E87-B19A-F839A277A047",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "SW1A 2TS",
-      "coordinates": {
-        "lat": 51.507099,
-        "lon": -0.130117
-      },
-      "evses": [
-        {
-          "physical_identifier": "ECB42C5B-FA3B-4E87-B19A-F839A277A047-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "Chet-Glen-B",
+            "last_updated": "2024-02-29T08:31:29Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2212"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.8011300",
+          "longitude": "-1.8931400"
         },
-        {
-          "physical_identifier": "ECB42C5B-FA3B-4E87-B19A-F839A277A047-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "40813017-1F87-470B-ABDA-6DBA8C838B28",
-      "operator_reference": "136",
-      "country_reference": "1",
-      "postal_code": "WC2R 0QS",
-      "coordinates": {
-        "lat": 51.50890313863235,
-        "lon": -0.12553378823179173
+        "directions": null,
+        "evse_id": null,
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-02-29T08:31:29Z",
+        "parking_restrictions": null,
+        "physical_reference": "Chet-Glen",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "Chet-Glen-B"
       },
-      "evses": [
-        {
-          "physical_identifier": "40813017-1F87-470B-ABDA-6DBA8C838B28-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "230A03DE-1045-418A-BDDC-A05CD952A0A3",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2H 7DT",
-      "coordinates": {
-        "lat": 51.509162,
-        "lon": -0.13065
-      },
-      "evses": [
-        {
-          "physical_identifier": "230A03DE-1045-418A-BDDC-A05CD952A0A3-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "30B13C4A-F7DC-4EFC-B160-5FEC72622B08",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1A 2BD",
-      "coordinates": {
-        "lat": 51.506477,
-        "lon": -0.12377
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-81203",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2N 4HX",
-      "coordinates": {
-        "lat": 51.510475,
-        "lon": -0.126729
-      },
-      "evses": [
-        {
-          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_33"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "Arne-Robb-B",
+            "last_updated": "2024-02-29T08:42:02Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2212"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.8011300",
+          "longitude": "-1.8931400"
         },
-        {
-          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_2"
-            }
-          ]
+        "directions": null,
+        "evse_id": null,
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-02-29T08:42:02Z",
+        "parking_restrictions": null,
+        "physical_reference": "Arne-Robb",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "Arne-Robb-B"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "Chet-Glen-A",
+            "last_updated": "2024-02-28T17:24:27Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2212"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.8011300",
+          "longitude": "-1.8931400"
         },
-        {
-          "physical_identifier": "7B4FEE96-5DA2-45C2-B561-3F685EA5EF2E-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 43,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
-        }
-      ]
+        "directions": null,
+        "evse_id": null,
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-02-28T17:24:27Z",
+        "parking_restrictions": null,
+        "physical_reference": "Chet-Glen",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "Chet-Glen-A"
+      }
+    ],
+    "facilities": null,
+    "id": "13184",
+    "images": null,
+    "last_updated": "2024-02-29T08:42:02Z",
+    "name": "Tesco Superstore - Ferndown",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "PP",
+    "postal_code": "BH22 9TH",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "Ardgartan Arrochar",
+    "charging_when_closed": false,
+    "city": "Argyll and Bute",
+    "coordinates": {
+      "latitude": "56.1888260",
+      "longitude": "-4.7812720"
     },
-    {
-      "location_reference": "70CC0782-8337-4055-B14A-61721D2AECBF",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC2N 4DQ",
-      "coordinates": {
-        "lat": 51.510492,
-        "lon": -0.125554
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010125",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "DA75F290-ECB2-4A09-9BD1-0060487F98E4",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1Y 5AD",
-      "coordinates": {
-        "lat": 51.506042,
-        "lon": -0.133653
-      },
-      "evses": [
-        {
-          "physical_identifier": "DA75F290-ECB2-4A09-9BD1-0060487F98E4-evse-1",
-          "status": "UNKNOWN",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "371495F1-C527-4275-8BCF-94DEAE4DDCF6",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "SW1Y 4PD",
-      "coordinates": {
-        "lat": 51.507729,
-        "lon": -0.13457
-      },
-      "evses": [
-        {
-          "physical_identifier": "371495F1-C527-4275-8BCF-94DEAE4DDCF6-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "562275A5-C298-4F05-947C-5E769F4767AF",
-      "operator_reference": "20",
-      "country_reference": "1",
-      "postal_code": "SW1Y 4PD",
-      "coordinates": {
-        "lat": 51.50773,
-        "lon": -0.13457
-      },
-      "evses": [
-        {
-          "physical_identifier": "562275A5-C298-4F05-947C-5E769F4767AF-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "360CD4CE-1DD9-4CB2-AB3D-7AE118501C99",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "WC2H 7PU",
-      "coordinates": {
-        "lat": 51.512046,
-        "lon": -0.129753
-      },
-      "evses": []
-    },
-    {
-      "location_reference": "21F9D8AB-4888-4E1A-98D3-16FE972DC818",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC2H 9NY",
-      "coordinates": {
-        "lat": 51.512373,
-        "lon": -0.12711
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100003759",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "603AF15D-9588-4753-827F-2F325852D64F",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2H 7PR",
-      "coordinates": {
-        "lat": 51.512299,
-        "lon": -0.129615
-      },
-      "evses": [
-        {
-          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "e2e776dc-645b-58f0-bc8e-2e189ed9e4dd",
+            "last_updated": "2024-07-10T20:02:03Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "083aa1b0-65bc-57e1-b140-3981b7a67d0e"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "56.1888260",
+          "longitude": "-4.7812720"
         },
-        {
-          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+        "directions": null,
+        "evse_id": "Joan-Doug-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-10T20:02:03Z",
+        "parking_restrictions": null,
+        "physical_reference": "Joan-Doug",
+        "status": "CHARGING",
+        "status_schedule": null,
+        "uid": "e2e776dc-645b-58f0-bc8e-2e189ed9e4dd"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "b10a7bae-e37e-50af-9b22-d07f3bbef787",
+            "last_updated": "2024-07-10T20:02:03Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "083aa1b0-65bc-57e1-b140-3981b7a67d0e"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "56.1888260",
+          "longitude": "-4.7812720"
         },
-        {
-          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 43,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
+        "directions": null,
+        "evse_id": "Joan-Doug-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-10T20:02:03Z",
+        "parking_restrictions": null,
+        "physical_reference": "Joan-Doug",
+        "status": "CHARGING",
+        "status_schedule": null,
+        "uid": "b10a7bae-e37e-50af-9b22-d07f3bbef787"
+      }
+    ],
+    "facilities": null,
+    "id": "05477c85-6d26-5291-be6f-086abb487cc2",
+    "images": null,
+    "last_updated": "2024-07-10T20:02:03Z",
+    "name": "Forest Holidays - Ardgartan Argyll",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "POD",
+    "postal_code": "G83 7AR",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "Regent Street       -  Open 06:00 to 00:00",
+    "charging_when_closed": false,
+    "city": "Plymouth",
+    "coordinates": {
+      "latitude": "50.3731540",
+      "longitude": "-4.1359870"
+    },
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "e7e96c7e-3904-57e2-a9bb-5f9d008a017b",
+            "last_updated": "2024-06-19T13:55:06Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3730790",
+          "longitude": "-4.1359140"
         },
-        {
-          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-4",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_33"
-            }
-          ]
+        "directions": null,
+        "evse_id": "Mark-Rose-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-06-19T13:55:06Z",
+        "parking_restrictions": null,
+        "physical_reference": "Mark-Rose",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "e7e96c7e-3904-57e2-a9bb-5f9d008a017b"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "c0828453-c99b-5d1a-b22c-f3c2366c8e1a",
+            "last_updated": "2024-06-19T13:55:06Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3730790",
+          "longitude": "-4.1359140"
         },
-        {
-          "physical_identifier": "603AF15D-9588-4753-827F-2F325852D64F-evse-5",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "9A86746E-20E6-4790-882A-FE201F3F070A",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2E 7HE",
-      "coordinates": {
-        "lat": 51.5109927464186,
-        "lon": -0.122040510177612
+        "directions": null,
+        "evse_id": "Mark-Rose-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-06-19T13:55:06Z",
+        "parking_restrictions": null,
+        "physical_reference": "Mark-Rose",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "c0828453-c99b-5d1a-b22c-f3c2366c8e1a"
       },
-      "evses": [
-        {
-          "physical_identifier": "002504",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "13ad90e4-88ca-54f7-8866-3e8e7a4a3293",
+            "last_updated": "2024-07-07T14:43:03Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3730790",
+          "longitude": "-4.1359140"
         },
-        {
-          "physical_identifier": "002505",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "C550B5B6-4F77-48E4-9B8A-DDAB1E231CD1",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2H 7PR",
-      "coordinates": {
-        "lat": 51.512699,
-        "lon": -0.130012
+        "directions": null,
+        "evse_id": "Mark-Rose-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-07T14:43:03Z",
+        "parking_restrictions": null,
+        "physical_reference": "Mark-Rose",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "13ad90e4-88ca-54f7-8866-3e8e7a4a3293"
       },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "7f314e8b-196c-55ff-ae3d-02f3c6535fc1",
+            "last_updated": "2024-06-29T16:01:15Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3731540",
+          "longitude": "-4.1359870"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "5AC37E88-5A1B-4878-B91B-9A53708FE889",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1A 2AH",
-      "coordinates": {
-        "lat": 51.501845,
-        "lon": -0.127892
+        "directions": null,
+        "evse_id": "Abby-Emma-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-06-29T16:01:15Z",
+        "parking_restrictions": null,
+        "physical_reference": "Abby-Emma",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "7f314e8b-196c-55ff-ae3d-02f3c6535fc1"
       },
-      "evses": [
-        {
-          "physical_identifier": "suby1100002746",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "EA8CE28B-859D-40B5-AAEF-F9AFC806A155",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2H 7PR",
-      "coordinates": {
-        "lat": 51.512798,
-        "lon": -0.130113
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "b1de5e71-c9d8-5409-b242-378e77113f3b",
+            "last_updated": "2024-07-09T14:25:09Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3731540",
+          "longitude": "-4.1359870"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "1302C3FB-CB4D-4B9D-961A-C707A149F35B",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "W1F 0LA",
-      "coordinates": {
-        "lat": 51.511865,
-        "lon": -0.134884
+        "directions": null,
+        "evse_id": "Abby-Emma-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-09T14:25:09Z",
+        "parking_restrictions": null,
+        "physical_reference": "Abby-Emma",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "b1de5e71-c9d8-5409-b242-378e77113f3b"
       },
-      "evses": []
-    },
-    {
-      "location_reference": "224F76EA-B92A-4287-802B-4B97E0F31642",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1F 9UN",
-      "coordinates": {
-        "lat": 51.511428,
-        "lon": -0.135708
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010123",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "BA1B5662-7014-498C-BEF8-14A2FABF4C05",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2E 7DU",
-      "coordinates": {
-        "lat": 51.511902,
-        "lon": -0.119569
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "27e81a49-48e3-5a16-afa3-2af5799f9d8a",
+            "last_updated": "2024-07-08T09:46:43Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3730790",
+          "longitude": "-4.1359140"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "481444C6-D487-44F5-816E-C4CEF084A540",
-      "operator_reference": "16",
-      "country_reference": "1",
-      "postal_code": "SE1 8XU",
-      "coordinates": {
-        "lat": 51.5052551,
-        "lon": -0.1168898
+        "directions": null,
+        "evse_id": "Mark-Rose-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-08T09:46:43Z",
+        "parking_restrictions": null,
+        "physical_reference": "Mark-Rose",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "27e81a49-48e3-5a16-afa3-2af5799f9d8a"
       },
-      "evses": [
-        {
-          "physical_identifier": "481444C6-D487-44F5-816E-C4CEF084A540-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 0,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "1BA80916-3004-4F34-8D59-EF33CF855F80",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1H 9AB",
-      "coordinates": {
-        "lat": 51.501,
-        "lon": -0.13328
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100009991",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "6C0ED007-1E69-41CB-8871-BBA323760515",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC2E 7DU",
-      "coordinates": {
-        "lat": 51.51229585,
-        "lon": -0.119148037008377
-      },
-      "evses": [
-        {
-          "physical_identifier": "6C0ED007-1E69-41CB-8871-BBA323760515-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "3f08fbba-6a62-5e9f-b163-3e248d5aec29",
+            "last_updated": "2024-07-07T12:50:33Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3731540",
+          "longitude": "-4.1359870"
         },
-        {
-          "physical_identifier": "6C0ED007-1E69-41CB-8871-BBA323760515-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "8EF5A223-130A-489E-874B-2182B74CBB3F",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1F 9JT",
-      "coordinates": {
-        "lat": 51.511818,
-        "lon": -0.137617
+        "directions": null,
+        "evse_id": "Abby-Emma-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-07T12:50:33Z",
+        "parking_restrictions": null,
+        "physical_reference": "Abby-Emma",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "3f08fbba-6a62-5e9f-b163-3e248d5aec29"
       },
-      "evses": [
-        {
-          "physical_identifier": "8EF5A223-130A-489E-874B-2182B74CBB3F-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "0308E9FB-6333-48F0-B6C9-217F723C42E6",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1H 9BU",
-      "coordinates": {
-        "lat": 51.500544,
-        "lon": -0.133597
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100007820",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "487958B0-434E-424B-ADE1-94441CDA8448",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "W1F 0DF",
-      "coordinates": {
-        "lat": 51.513535,
-        "lon": -0.135519
-      },
-      "evses": [
-        {
-          "physical_identifier": "487958B0-434E-424B-ADE1-94441CDA8448-evse-1",
-          "status": "UNKNOWN",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "26A5979D-37CE-436E-9935-7BB5ACB9E95F",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "WC2b 5NT",
-      "coordinates": {
-        "lat": 51.51422,
-        "lon": -0.12136
-      },
-      "evses": []
-    },
-    {
-      "location_reference": "41D4D0F7-F269-4901-8A8F-8095D7C08AD9",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1D 3QR",
-      "coordinates": {
-        "lat": 51.514955000000526,
-        "lon": -0.13209300000221447
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010280",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "4224D43B-637D-4CA1-A07A-0566405A176C",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1F 8WG",
-      "coordinates": {
-        "lat": 51.514418,
-        "lon": -0.134767
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010174",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "F86BEBE0-D09A-4BCF-A522-3FEA4BE90618",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1D 3BX",
-      "coordinates": {
-        "lat": 51.515133,
-        "lon": -0.132938
-      },
-      "evses": [
-        {
-          "physical_identifier": "F86BEBE0-D09A-4BCF-A522-3FEA4BE90618-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "7E72BEA8-C4D3-4502-AEE2-4BC4208723A0",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "W1F 7SJ",
-      "coordinates": {
-        "lat": 51.513645,
-        "lon": -0.137168
-      },
-      "evses": []
-    },
-    {
-      "location_reference": "5C991D12-51CB-470C-928F-EA70FB5D9631",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "",
-      "coordinates": {
-        "lat": 51.515559717462054,
-        "lon": -0.13189368249868494
-      },
-      "evses": [
-        {
-          "physical_identifier": "5C991D12-51CB-470C-928F-EA70FB5D9631-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1S 3AF",
-      "coordinates": {
-        "lat": 51.510632,
-        "lon": -0.14051870000003
-      },
-      "evses": [
-        {
-          "physical_identifier": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "9581e6b7-d866-5780-ab82-b0f672e0f882",
+            "last_updated": "2024-06-29T16:01:15Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "2e25ed3b-6e99-5943-b0bc-6e96eef3fea3"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.3731540",
+          "longitude": "-4.1359870"
         },
-        {
-          "physical_identifier": "9424C0EE-FC83-4F98-923D-EA2CA4A29C30-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "directions": null,
+        "evse_id": "Abby-Emma-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-06-29T16:01:15Z",
+        "parking_restrictions": null,
+        "physical_reference": "Abby-Emma",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "9581e6b7-d866-5780-ab82-b0f672e0f882"
+      }
+    ],
+    "facilities": null,
+    "id": "70f88712-a62d-5d89-9d35-f516dd16865f",
+    "images": null,
+    "last_updated": "2024-07-09T14:25:09Z",
+    "name": "Regent Street (Public Car Park)",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "POD",
+    "postal_code": "PL1 8BA",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "Penglais Campus Penglais",
+    "charging_when_closed": false,
+    "city": "Aberystwyth",
+    "coordinates": {
+      "latitude": "52.4162240",
+      "longitude": "-4.0656620"
     },
-    {
-      "location_reference": "2D100DEA-44F6-4217-AF0E-116F3963CA2E",
-      "operator_reference": "20",
-      "country_reference": "1",
-      "postal_code": "SE1 8XU",
-      "coordinates": {
-        "lat": 51.50463,
-        "lon": -0.11455
-      },
-      "evses": [
-        {
-          "physical_identifier": "2D100DEA-44F6-4217-AF0E-116F3963CA2E-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1F 7NQ",
-      "coordinates": {
-        "lat": 51.514198,
-        "lon": -0.136689
-      },
-      "evses": [
-        {
-          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "Anna-Hugh-A",
+            "last_updated": "2024-02-29T09:43:40Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "478"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.4162240",
+          "longitude": "-4.0656620"
         },
-        {
-          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+        "directions": null,
+        "evse_id": null,
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-02-29T09:43:40Z",
+        "parking_restrictions": null,
+        "physical_reference": "Anna-Hugh",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "Anna-Hugh-A"
+      }
+    ],
+    "facilities": null,
+    "id": "10108",
+    "images": null,
+    "last_updated": "2024-02-29T09:43:40Z",
+    "name": "Aberystwyth University (Dept. of Computer Science Building Car Park)",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "PP",
+    "postal_code": "SY23 3DU",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "56 De Witte Bergen ",
+    "charging_when_closed": true,
+    "city": "IJhorst",
+    "coordinates": {
+      "latitude": "52.654515",
+      "longitude": "6.299315"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "72291",
+            "last_updated": "2024-02-21T14:18:02Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.654515",
+          "longitude": "6.299315"
         },
-        {
-          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_2"
-            }
-          ]
+        "evse_id": "GB*EVB*71660",
+        "last_updated": "2024-02-21T14:18:02Z",
+        "physical_reference": "GB*EVB*71660",
+        "status": "AVAILABLE",
+        "uid": "71660"
+      }
+    ],
+    "id": "36437",
+    "last_updated": "2024-02-21T14:18:02Z",
+    "name": "56 De Witte Bergen ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "7955",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.654515",
+        "longitude": "6.299315"
+      }
+    ]
+  },
+  {
+    "address": "20 Hallinkskaamp ",
+    "charging_when_closed": true,
+    "city": "Lemele",
+    "coordinates": {
+      "latitude": "52.453988",
+      "longitude": "6.416222"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "71929",
+            "last_updated": "2024-02-21T14:17:55Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.453988",
+          "longitude": "6.416222"
         },
-        {
-          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-4",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_33"
-            }
-          ]
+        "evse_id": "GB*EVB*71300",
+        "last_updated": "2024-02-21T14:17:55Z",
+        "physical_reference": "GB*EVB*71300",
+        "status": "AVAILABLE",
+        "uid": "71300"
+      }
+    ],
+    "id": "36297",
+    "last_updated": "2024-02-21T14:17:55Z",
+    "name": "20 Hallinkskaamp ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "8148",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.453988",
+        "longitude": "6.416222"
+      }
+    ]
+  },
+  {
+    "address": "15 Zuidlaan ",
+    "charging_when_closed": true,
+    "city": "Bergen",
+    "coordinates": {
+      "latitude": "52.676696",
+      "longitude": "4.695670"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "87326",
+            "last_updated": "2024-02-21T14:24:37Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.676696",
+          "longitude": "4.695670"
         },
-        {
-          "physical_identifier": "0A45CE22-7DD3-417B-B053-9A4BC532EAFD-evse-5",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 43,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EVB*86620",
+        "last_updated": "2024-02-21T14:24:37Z",
+        "physical_reference": "GB*EVB*86620",
+        "status": "AVAILABLE",
+        "uid": "86620"
+      }
+    ],
+    "id": "44249",
+    "last_updated": "2024-02-21T14:24:37Z",
+    "name": "15 Zuidlaan ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC",
-      "operator_reference": "19",
-      "country_reference": "1",
-      "postal_code": "SE1 7UT",
-      "coordinates": {
-        "lat": 51.5014098,
-        "lon": -0.117240600000059
-      },
-      "evses": [
-        {
-          "physical_identifier": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "1861",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.676696",
+        "longitude": "4.695670"
+      }
+    ]
+  },
+  {
+    "address": "Industrieweg  ",
+    "charging_when_closed": true,
+    "city": "Nijmegen",
+    "coordinates": {
+      "latitude": "51.852532",
+      "longitude": "5.828948"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "8307",
+            "last_updated": "2024-02-21T14:21:02Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.852532",
+          "longitude": "5.828948"
         },
-        {
-          "physical_identifier": "A2B146DE-6CB2-4DDD-9B22-9A3AFFCBF1AC-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "F2B52BCB-BF4F-4CA5-B39A-3F03C0B47A33",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1D 3QH",
-      "coordinates": {
-        "lat": 51.516,
-        "lon": -0.13187
+        "evse_id": "GB*EVB*8236",
+        "last_updated": "2024-02-21T14:21:02Z",
+        "physical_reference": "GB*EVB*8236",
+        "status": "AVAILABLE",
+        "uid": "8236"
       },
-      "evses": [
-        {
-          "physical_identifier": "suby1100008497",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "D9A4BD23-8B48-4A79-96DE-E799A909DD34",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "WC1A 1DD",
-      "coordinates": {
-        "lat": 51.516312,
-        "lon": -0.129476
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "8308",
+            "last_updated": "2024-02-21T14:21:02Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.852532",
+          "longitude": "5.828948"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EVB*8237",
+        "last_updated": "2024-02-21T14:21:02Z",
+        "physical_reference": "GB*EVB*8237",
+        "status": "AVAILABLE",
+        "uid": "8237"
+      }
+    ],
+    "id": "3993",
+    "last_updated": "2024-02-21T14:21:02Z",
+    "name": "Industrieweg  ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "8014CE71-BDB1-4991-8BAC-1831FBC182A8",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC2B 5AZ",
-      "coordinates": {
-        "lat": 51.515614,
-        "lon": -0.120802
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100005049",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "EVB"
     },
-    {
-      "location_reference": "0E89217E-D4EB-4252-91AF-D280B73B0157",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1S 4BS",
-      "coordinates": {
-        "lat": 51.5096839873231,
-        "lon": -0.142478942871094
-      },
-      "evses": [
-        {
-          "physical_identifier": "0E89217E-D4EB-4252-91AF-D280B73B0157-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "party_id": "EVB",
+    "postal_code": "6541",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.852532",
+        "longitude": "5.828948"
+      }
+    ]
+  },
+  {
+    "address": "Auf der Haiden 2 ",
+    "charging_when_closed": true,
+    "city": "Braunau am Inn",
+    "coordinates": {
+      "latitude": "48.250022",
+      "longitude": "13.047300"
+    },
+    "country": "AUT",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "50885",
+            "last_updated": "2024-02-21T14:13:27Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "48.250022",
+          "longitude": "13.047300"
         },
-        {
-          "physical_identifier": "0E89217E-D4EB-4252-91AF-D280B73B0157-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "9EFDFCE4-FD17-465C-981E-73CC5ADB4E9E",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "",
-      "coordinates": {
-        "lat": 51.51232110346069,
-        "lon": -0.11432518712229012
+        "evse_id": "GB*EAGEV*50469",
+        "last_updated": "2024-02-21T14:13:27Z",
+        "physical_reference": "GB*EAGEV*50469",
+        "status": "AVAILABLE",
+        "uid": "50469"
       },
-      "evses": [
-        {
-          "physical_identifier": "9EFDFCE4-FD17-465C-981E-73CC5ADB4E9E-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "AB8BD1CA-A6BB-4455-B045-82322ADFF12F",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "SW1P 3RX",
-      "coordinates": {
-        "lat": 51.4977,
-        "lon": -0.126443
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "50886",
+            "last_updated": "2024-02-21T14:13:27Z",
+            "max_amperage": 125,
+            "max_voltage": 400,
+            "power_type": "DC",
+            "standard": "CHADEMO",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "48.250022",
+          "longitude": "13.047300"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "7BD66ADF-0C05-4308-A33A-191C7885A273",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2B 6TE",
-      "coordinates": {
-        "lat": 51.5151901467396,
-        "lon": -0.118159841802967
+        "evse_id": "GB*EAGEV*50470",
+        "last_updated": "2024-02-21T14:13:27Z",
+        "physical_reference": "GB*EAGEV*50470",
+        "status": "AVAILABLE",
+        "uid": "50470"
       },
-      "evses": [
-        {
-          "physical_identifier": "7BD66ADF-0C05-4308-A33A-191C7885A273-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "50887",
+            "last_updated": "2024-02-21T14:13:27Z",
+            "max_amperage": 125,
+            "max_voltage": 400,
+            "power_type": "DC",
+            "standard": "IEC_62196_T2_COMBO",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "48.250022",
+          "longitude": "13.047300"
         },
-        {
-          "physical_identifier": "7BD66ADF-0C05-4308-A33A-191C7885A273-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_1"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EAGEV*50471",
+        "last_updated": "2024-02-21T14:13:27Z",
+        "physical_reference": "GB*EAGEV*50471",
+        "status": "AVAILABLE",
+        "uid": "50471"
+      }
+    ],
+    "id": "26844",
+    "last_updated": "2024-02-21T14:13:27Z",
+    "name": "Auf der Haiden 2 ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "DE90779D-6C14-405B-B430-2772D82DC725",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "SW1P 3RX",
-      "coordinates": {
-        "lat": 51.4975281,
-        "lon": -0.127408500000001
-      },
-      "evses": [
-        {
-          "physical_identifier": "DE90779D-6C14-405B-B430-2772D82DC725-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "operator": {
+      "name": "EAGEV"
+    },
+    "party_id": "EAGEV",
+    "postal_code": "5280",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "48.250022",
+        "longitude": "13.047300"
+      }
+    ]
+  },
+  {
+    "address": "1 Kapelland ",
+    "charging_when_closed": true,
+    "city": "De Lier",
+    "coordinates": {
+      "latitude": "51.956161",
+      "longitude": "4.232784"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "11630",
+            "last_updated": "2024-02-21T14:23:14Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.956161",
+          "longitude": "4.232784"
         },
-        {
-          "physical_identifier": "DE90779D-6C14-405B-B430-2772D82DC725-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "33904134-A1FF-4BC5-963E-BFA23772A4BE",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "SW1P 3RX",
-      "coordinates": {
-        "lat": 51.497528,
-        "lon": -0.127409
+        "evse_id": "GB*EVB*11539",
+        "last_updated": "2024-02-21T14:23:14Z",
+        "physical_reference": "GB*EVB*11539",
+        "status": "AVAILABLE",
+        "uid": "11539"
       },
-      "evses": []
-    },
-    {
-      "location_reference": "895E7506-918C-41E5-8384-CF4413B172A8",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SE1 9PP",
-      "coordinates": {
-        "lat": 51.5068393098305,
-        "lon": -0.111933946609497
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-91623",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "11631",
+            "last_updated": "2024-02-21T14:23:16Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.956161",
+          "longitude": "4.232784"
         },
-        {
-          "physical_identifier": "PG-91683",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+        "evse_id": "GB*EVB*11540",
+        "last_updated": "2024-02-21T14:23:16Z",
+        "physical_reference": "GB*EVB*11540",
+        "status": "AVAILABLE",
+        "uid": "11540"
+      }
+    ],
+    "id": "5795",
+    "last_updated": "2024-02-21T14:23:16Z",
+    "name": "1 Kapelland ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "2678 NP",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.956161",
+        "longitude": "4.232784"
+      }
+    ]
+  },
+  {
+    "address": "Insektsv\u00e4gen ",
+    "charging_when_closed": true,
+    "city": "Mariestad",
+    "coordinates": {
+      "latitude": "58.700446",
+      "longitude": "13.794319"
+    },
+    "country": "SWE",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "7960",
+            "last_updated": "2024-02-21T14:20:42Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "58.700446",
+          "longitude": "13.794319"
         },
-        {
-          "physical_identifier": "PG-91553",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2R 2PG",
-      "coordinates": {
-        "lat": 51.5116935,
-        "lon": -0.113055249442683
+        "evse_id": "GB*CEV*7890",
+        "last_updated": "2024-02-21T14:20:42Z",
+        "physical_reference": "GB*CEV*7890",
+        "status": "AVAILABLE",
+        "uid": "7890"
       },
-      "evses": [
-        {
-          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "7961",
+            "last_updated": "2024-02-21T14:20:42Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "58.700446",
+          "longitude": "13.794319"
         },
-        {
-          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_1"
-            }
-          ]
+        "evse_id": "GB*CEV*7891",
+        "last_updated": "2024-02-21T14:20:42Z",
+        "physical_reference": "GB*CEV*7891",
+        "status": "AVAILABLE",
+        "uid": "7891"
+      }
+    ],
+    "id": "3799",
+    "last_updated": "2024-02-21T14:20:42Z",
+    "name": "Insektsv\u00e4gen ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "P&CEV"
+    },
+    "party_id": "CEV",
+    "postal_code": "542 45",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "58.700446",
+        "longitude": "13.794319"
+      }
+    ]
+  },
+  {
+    "address": "285 Keizersmantelweg ",
+    "charging_when_closed": true,
+    "city": "Hoogvliet Rotterdam",
+    "coordinates": {
+      "latitude": "51.859232",
+      "longitude": "4.347699"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "38421",
+            "last_updated": "2024-02-21T14:11:05Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.859232",
+          "longitude": "4.347699"
         },
-        {
-          "physical_identifier": "354EE31B-153D-4A89-8DA2-5D9B2E8CEB2D-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "C77AE08F-B59F-4C54-A147-5678C9CF2FFF",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1J 8NR",
-      "coordinates": {
-        "lat": 51.50908,
-        "lon": -0.143872
+        "evse_id": "GB*EVB*38100",
+        "last_updated": "2024-02-21T14:11:05Z",
+        "physical_reference": "GB*EVB*38100",
+        "status": "AVAILABLE",
+        "uid": "38100"
       },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010180",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "DF7AA0C7-9D87-47D7-8C43-9F848BBAE271",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1H 0QU",
-      "coordinates": {
-        "lat": 51.498522,
-        "lon": -0.13584
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100004892",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "CE190220-0567-41A9-895B-D15CF94D9F56",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC1B 3AJ",
-      "coordinates": {
-        "lat": 51.517603,
-        "lon": -0.129837
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100000674",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "5496B28B-B2CD-4D2C-A5E5-EFDEEAF39E9A",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2R 2PG",
-      "coordinates": {
-        "lat": 51.511407,
-        "lon": -0.112471
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_1"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "38422",
+            "last_updated": "2024-02-21T14:11:05Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.859232",
+          "longitude": "4.347699"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EVB*38101",
+        "last_updated": "2024-02-21T14:11:05Z",
+        "physical_reference": "GB*EVB*38101",
+        "status": "AVAILABLE",
+        "uid": "38101"
+      }
+    ],
+    "id": "20203",
+    "last_updated": "2024-02-21T14:11:05Z",
+    "name": "285 Keizersmantelweg ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "7BAFE918-B4BE-4CF4-8F46-B1BBA62A968B",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1S 2AT",
-      "coordinates": {
-        "lat": 51.512568,
-        "lon": -0.142311
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010485",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "EVB"
     },
-    {
-      "location_reference": "19FFED09-EC70-4EDB-BB36-226693205EC5",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC1B 3AJ",
-      "coordinates": {
-        "lat": 51.517782,
-        "lon": -0.130023
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100001896",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "party_id": "EVB",
+    "postal_code": "3192 VL",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.859232",
+        "longitude": "4.347699"
+      }
+    ]
+  },
+  {
+    "address": "Friedensplatz 2 ",
+    "charging_when_closed": true,
+    "city": "Moosdorf",
+    "coordinates": {
+      "latitude": "48.047547",
+      "longitude": "12.988517"
     },
-    {
-      "location_reference": "67962659-8C91-4738-A9FF-ED3B98275746",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 3LN",
-      "coordinates": {
-        "lat": 51.496896,
-        "lon": -0.127436
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100004896",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2A 3PE",
-      "coordinates": {
-        "lat": 51.5152860135492,
-        "lon": -0.116643905639648
-      },
-      "evses": [
-        {
-          "physical_identifier": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+    "country": "AUT",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "38076",
+            "last_updated": "2024-02-21T14:10:56Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "48.047547",
+          "longitude": "12.988517"
         },
-        {
-          "physical_identifier": "8F578ECD-09FB-48B6-B5B7-F24B89A5EFD2-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "712FE7BB-E78D-424A-A443-924D399814CD",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 3NQ",
-      "coordinates": {
-        "lat": 51.496887,
-        "lon": -0.127973
+        "evse_id": "GB*EAGEV*37759",
+        "last_updated": "2024-02-21T14:10:56Z",
+        "physical_reference": "GB*EAGEV*37759",
+        "status": "AVAILABLE",
+        "uid": "37759"
       },
-      "evses": [
-        {
-          "physical_identifier": "suby1100002631",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "40663BBF-D02B-4171-AD5D-2020C5D3A729",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 3LT",
-      "coordinates": {
-        "lat": 51.496895,
-        "lon": -0.128714
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100002552",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "4586EAA7-C0AD-4EBF-92D7-AD81359703B2",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "WC2A 3PE",
-      "coordinates": {
-        "lat": 51.515375,
-        "lon": -0.116745
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-81201",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "09448835-8408-4DA1-B9B0-FF3783AC3162",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1T 1AL",
-      "coordinates": {
-        "lat": 51.517475,
-        "lon": -0.133047
-      },
-      "evses": [
-        {
-          "physical_identifier": "camden-stephensstreet-1-1_0",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "9A0AD473-8D55-432D-9844-73C65895B63E",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 2BX",
-      "coordinates": {
-        "lat": 51.496866,
-        "lon": -0.129591
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100003299",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "A69BFE5E-CD90-4349-8A2A-9D9DDB0842D0",
-      "operator_reference": "20",
-      "country_reference": "1",
-      "postal_code": "SE1 9PU",
-      "coordinates": {
-        "lat": 51.50542,
-        "lon": -0.11099
-      },
-      "evses": [
-        {
-          "physical_identifier": "A69BFE5E-CD90-4349-8A2A-9D9DDB0842D0-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "EA04C6EE-07AD-4AC8-BD68-533810D32B02",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC1B 3AH",
-      "coordinates": {
-        "lat": 51.51798,
-        "lon": -0.130288
-      },
-      "evses": [
-        {
-          "physical_identifier": "GB*BPL*E001923",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "38077",
+            "last_updated": "2024-02-21T14:10:56Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "48.047547",
+          "longitude": "12.988517"
         },
-        {
-          "physical_identifier": "GB*BPL*E001922",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EAGEV*37760",
+        "last_updated": "2024-02-21T14:10:56Z",
+        "physical_reference": "GB*EAGEV*37760",
+        "status": "AVAILABLE",
+        "uid": "37760"
+      }
+    ],
+    "id": "20028",
+    "last_updated": "2024-02-21T14:10:56Z",
+    "name": "Friedensplatz 2 ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "42D73F00-98D9-4256-8853-3F5F02ABC1E7",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1J 6EG",
-      "coordinates": {
-        "lat": 51.509495,
-        "lon": -0.144767
-      },
-      "evses": [
-        {
-          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "operator": {
+      "name": "EAGEV"
+    },
+    "party_id": "EAGEV",
+    "postal_code": "5141",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "48.047547",
+        "longitude": "12.988517"
+      }
+    ]
+  },
+  {
+    "address": "2 Pieterman ",
+    "charging_when_closed": true,
+    "city": "Volendam",
+    "coordinates": {
+      "latitude": "52.491550",
+      "longitude": "5.064110"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "58558",
+            "last_updated": "2024-02-21T14:15:25Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.491550",
+          "longitude": "5.064110"
         },
-        {
-          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+        "evse_id": "GB*PPE*58101",
+        "last_updated": "2024-02-21T14:15:25Z",
+        "physical_reference": "GB*PPE*58101",
+        "status": "AVAILABLE",
+        "uid": "58101"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "58559",
+            "last_updated": "2024-02-21T14:17:47Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.491550",
+          "longitude": "5.064110"
         },
-        {
-          "physical_identifier": "42D73F00-98D9-4256-8853-3F5F02ABC1E7-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*PPE*58102",
+        "last_updated": "2024-02-21T14:17:47Z",
+        "physical_reference": "GB*PPE*58102",
+        "status": "AVAILABLE",
+        "uid": "58102"
+      }
+    ],
+    "id": "30481",
+    "last_updated": "2024-02-21T14:17:47Z",
+    "name": "2 Pieterman ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "3B6E9D8A-9785-4773-BA27-5E3C103E7373",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC1A 2HS",
-      "coordinates": {
-        "lat": 51.518054,
-        "lon": -0.12494
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100005044",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "PPEV"
     },
-    {
-      "location_reference": "DF5EBC96-9E57-49C2-AB2C-057CA7342814",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1J 6ES",
-      "coordinates": {
-        "lat": 51.509472,
-        "lon": -0.14487
-      },
-      "evses": [
-        {
-          "physical_identifier": "DF5EBC96-9E57-49C2-AB2C-057CA7342814-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "party_id": "PPE",
+    "postal_code": "1131 PW",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.491550",
+        "longitude": "5.064110"
+      }
+    ]
+  },
+  {
+    "address": "43 Hof van Delftsesluis ",
+    "charging_when_closed": true,
+    "city": "Vlaardingen",
+    "coordinates": {
+      "latitude": "51.901960",
+      "longitude": "4.340855"
     },
-    {
-      "location_reference": "CA6188C0-43E0-4810-ABFE-AE98A2F8FFEF",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC1A 1JP",
-      "coordinates": {
-        "lat": 51.5181387,
-        "lon": -0.1255737
-      },
-      "evses": [
-        {
-          "physical_identifier": "CA6188C0-43E0-4810-ABFE-AE98A2F8FFEF-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "1C54E594-DA1D-4A52-B889-FB871D93A7F0",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1E 6AA",
-      "coordinates": {
-        "lat": 51.497912,
-        "lon": -0.136349
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-81200",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "61966",
+            "last_updated": "2024-02-21T14:15:30Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.901960",
+          "longitude": "4.340855"
         },
-        {
-          "physical_identifier": "PG-81202",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "C0C55FA1-6A01-4C92-861D-E18C053BD68F",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1P 2BN",
-      "coordinates": {
-        "lat": 51.496653,
-        "lon": -0.13111
+        "evse_id": "GB*EVB*61473",
+        "last_updated": "2024-02-21T14:15:30Z",
+        "physical_reference": "GB*EVB*61473",
+        "status": "AVAILABLE",
+        "uid": "61473"
       },
-      "evses": [
-        {
-          "physical_identifier": "C0C55FA1-6A01-4C92-861D-E18C053BD68F-evse-1",
-          "status": "UNKNOWN",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "6B26E5BF-067C-4388-88EC-203321650BDC",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC1A 2JU",
-      "coordinates": {
-        "lat": 51.518144,
-        "lon": -0.12398
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100005022",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "62077580-E643-423E-9AB8-F6C3A8FECEDB",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1S 1FH",
-      "coordinates": {
-        "lat": 51.512844,
-        "lon": -0.143349
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100006587",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "FC063039-5EED-409C-B690-112FF3377CB0",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 2JX",
-      "coordinates": {
-        "lat": 51.496731,
-        "lon": -0.132808
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100005971",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "45552D66-A4FE-4816-AD57-153733C74A04",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "WC1A 2DB",
-      "coordinates": {
-        "lat": 51.517947,
-        "lon": -0.121831
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100005047",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "8FB18C35-6765-4379-B4BB-11A48B609B9C",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1J 6EG",
-      "coordinates": {
-        "lat": 51.509871967635604,
-        "lon": -0.1453217303424026
-      },
-      "evses": [
-        {
-          "physical_identifier": "8FB18C35-6765-4379-B4BB-11A48B609B9C-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "C5A6419C-2912-4AB5-A24C-35846C12570B",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1T 3LN",
-      "coordinates": {
-        "lat": 51.517235,
-        "lon": -0.136815
-      },
-      "evses": [
-        {
-          "physical_identifier": "C5A6419C-2912-4AB5-A24C-35846C12570B-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "61967",
+            "last_updated": "2024-02-21T14:15:30Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.901960",
+          "longitude": "4.340855"
         },
-        {
-          "physical_identifier": "C5A6419C-2912-4AB5-A24C-35846C12570B-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*EVB*61474",
+        "last_updated": "2024-02-21T14:15:30Z",
+        "physical_reference": "GB*EVB*61474",
+        "status": "AVAILABLE",
+        "uid": "61474"
+      }
+    ],
+    "id": "31826",
+    "last_updated": "2024-02-21T14:15:30Z",
+    "name": "43 Hof van Delftsesluis ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "DF4BCBE0-3268-4F9B-936D-3EE089018561",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SE1 7RJ",
-      "coordinates": {
-        "lat": 51.500361,
-        "lon": -0.113099
-      },
-      "evses": [
-        {
-          "physical_identifier": "DF4BCBE0-3268-4F9B-936D-3EE089018561-evse-1",
-          "status": "UNKNOWN",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "EVB"
     },
-    {
-      "location_reference": "C292F659-7364-4D11-9D40-11F665E3FB5D",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 2BQ",
-      "coordinates": {
-        "lat": 51.496,
-        "lon": -0.13085
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010039",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "party_id": "EVB",
+    "postal_code": "3133 MB",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.901960",
+        "longitude": "4.340855"
+      }
+    ]
+  },
+  {
+    "address": "7 Samuel Leviestraat ",
+    "charging_when_closed": true,
+    "city": "Leek",
+    "coordinates": {
+      "latitude": "53.162315",
+      "longitude": "6.389802"
     },
-    {
-      "location_reference": "31C5F5F6-EF8D-42EB-8F52-CC9EBF40D6E6",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1J 5DJ",
-      "coordinates": {
-        "lat": 51.508257,
-        "lon": -0.146484
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010059",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "ECE1E205-8448-4AFC-A9D1-05CDEAA0072A",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1B 2LY",
-      "coordinates": {
-        "lat": 51.514586,
-        "lon": -0.142564
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010493",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "C063E4E0-DE5C-438C-A47E-DE753C2CB0D1",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1K 3QU",
-      "coordinates": {
-        "lat": 51.511441,
-        "lon": -0.145558
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010256",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "44D2C91A-77DE-4495-A707-7D047278D3D4",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1J 7AF",
-      "coordinates": {
-        "lat": 51.506001,
-        "lon": -0.146775
-      },
-      "evses": [
-        {
-          "physical_identifier": "44D2C91A-77DE-4495-A707-7D047278D3D4-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "A0E093CE-5A2F-473E-B35E-465FB0A4C39F",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1K 4PZ",
-      "coordinates": {
-        "lat": 51.512165,
-        "lon": -0.145341
-      },
-      "evses": [
-        {
-          "physical_identifier": "estminster-grosvenorstreet-1_0",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 22,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "E7C091A1-95DC-4CDD-9407-8FE6C0BCD9A8",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "WC1A 2RJ",
-      "coordinates": {
-        "lat": 51.5190133,
-        "lon": -0.12224600000001828
-      },
-      "evses": []
-    },
-    {
-      "location_reference": "4224FC6B-7290-4E56-90E3-588EF92EC288",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1E 6NP",
-      "coordinates": {
-        "lat": 51.498965,
-        "lon": -0.141783
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100007819",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1T 3NE",
-      "coordinates": {
-        "lat": 51.518002,
-        "lon": -0.137539
-      },
-      "evses": [
-        {
-          "physical_identifier": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "73076",
+            "last_updated": "2024-02-21T14:18:17Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "53.162315",
+          "longitude": "6.389802"
         },
-        {
-          "physical_identifier": "F68A94D7-960D-409A-BBDC-CEDEBBDA8FB7-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "F0D03BD4-7C2B-46A1-A3B3-F9F9C428CA4F",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "WC2A 3TL",
-      "coordinates": {
-        "lat": 51.51643,
-        "lon": -0.114483
+        "evse_id": "GB*ACV*72438",
+        "last_updated": "2024-02-21T14:18:17Z",
+        "physical_reference": "GB*ACV*72438",
+        "status": "AVAILABLE",
+        "uid": "72438"
       },
-      "evses": []
-    },
-    {
-      "location_reference": "0C02BBAA-EA5F-4A32-89E5-CEB7B720A721",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "W1K 4PS",
-      "coordinates": {
-        "lat": 51.511983,
-        "lon": -0.146098
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010321",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "4DB57CF5-EAA0-4F89-BDE3-00442346CB7F",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "W1K 3QQ",
-      "coordinates": {
-        "lat": 51.510944,
-        "lon": -0.146848
-      },
-      "evses": [
-        {
-          "physical_identifier": "4DB57CF5-EAA0-4F89-BDE3-00442346CB7F-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "E4FC7A33-64A0-4B3C-A279-E361E0DF0573",
-      "operator_reference": "1",
-      "country_reference": "1",
-      "postal_code": "W1K 3QQ",
-      "coordinates": {
-        "lat": 51.510944,
-        "lon": -0.146848
-      },
-      "evses": []
-    },
-    {
-      "location_reference": "65DA711C-489E-43EA-9292-7500D7C6EFB2",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 1AB",
-      "coordinates": {
-        "lat": 51.495919,
-        "lon": -0.135237
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100010606",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "70BB3F6D-EE86-4C3D-9394-02E2DCFFE5ED",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1E 5JL",
-      "coordinates": {
-        "lat": 51.497297,
-        "lon": -0.139462
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-81145",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "D80725B8-C3EC-4EE1-9680-B9266B8BF034",
-      "operator_reference": "3392",
-      "country_reference": "1",
-      "postal_code": "SW1P 1AB",
-      "coordinates": {
-        "lat": 51.496,
-        "lon": -0.13586
-      },
-      "evses": [
-        {
-          "physical_identifier": "suby1100008178",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 5,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "984DC307-CC42-44B2-8C94-0BA958E60933",
-      "operator_reference": "45",
-      "country_reference": "1",
-      "postal_code": "SW1P 3RE",
-      "coordinates": {
-        "lat": 51.4948439,
-        "lon": -0.12867
-      },
-      "evses": [
-        {
-          "physical_identifier": "984DC307-CC42-44B2-8C94-0BA958E60933-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "location_reference": "9BC1DFFC-00E3-4B92-BB2D-F38CEF67D301",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "WC2A 3PD",
-      "coordinates": {
-        "lat": 51.5175,
-        "lon": -0.115606
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 3,
-              "standard": "TYPE_ID_1"
-            }
-          ]
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "73077",
+            "last_updated": "2024-02-21T14:18:17Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "53.162315",
+          "longitude": "6.389802"
         },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*ACV*72439",
+        "last_updated": "2024-02-21T14:18:17Z",
+        "physical_reference": "GB*ACV*72439",
+        "status": "AVAILABLE",
+        "uid": "72439"
+      }
+    ],
+    "id": "36767",
+    "last_updated": "2024-02-21T14:18:17Z",
+    "name": "7 Samuel Leviestraat ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "6D490634-CE4C-4398-9BD3-DEE3CE3A6B77",
-      "operator_reference": "3",
-      "country_reference": "1",
-      "postal_code": "SW1P 4DR",
-      "coordinates": {
-        "lat": 51.494767503224,
-        "lon": -0.130060857177789
-      },
-      "evses": [
-        {
-          "physical_identifier": "PG-81153",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "ACV Chargers"
     },
-    {
-      "location_reference": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22",
-      "operator_reference": "32",
-      "country_reference": "1",
-      "postal_code": "SW1P 4DR",
-      "coordinates": {
-        "lat": 51.494678,
-        "lon": -0.129862
-      },
-      "evses": [
-        {
-          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_33"
-            }
-          ]
-        },
-        {
-          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_2"
-            }
-          ]
-        },
-        {
-          "physical_identifier": "CD4ACBAB-A6A0-4C08-9C40-CD857019DB22-evse-3",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 43,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
-        }
-      ]
+    "party_id": "ACV",
+    "postal_code": "9351 BM",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "53.162315",
+        "longitude": "6.389802"
+      }
+    ]
+  },
+  {
+    "address": "4 Avenue du Martin Pecheur ",
+    "charging_when_closed": true,
+    "city": "Watermael-Boitsfort",
+    "coordinates": {
+      "latitude": "50.810732",
+      "longitude": "4.400616"
     },
-    {
-      "location_reference": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1T 2NH",
-      "coordinates": {
-        "lat": 51.519293,
-        "lon": -0.135446
-      },
-      "evses": [
-        {
-          "physical_identifier": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_1"
-            }
-          ]
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "72478",
+            "last_updated": "2024-02-21T14:19:32Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.810732",
+          "longitude": "4.400616"
         },
-        {
-          "physical_identifier": "C4A66AFA-6EAD-4219-8D6A-14BCAE01FA86-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+        "evse_id": "GB*GFX*71845",
+        "last_updated": "2024-02-21T14:19:32Z",
+        "physical_reference": "GB*GFX*71845",
+        "status": "AVAILABLE",
+        "uid": "71845"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "72479",
+            "last_updated": "2024-02-21T14:19:32Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.810732",
+          "longitude": "4.400616"
+        },
+        "evse_id": "GB*GFX*71846",
+        "last_updated": "2024-02-21T14:19:32Z",
+        "physical_reference": "GB*GFX*71846",
+        "status": "AVAILABLE",
+        "uid": "71846"
+      }
+    ],
+    "id": "36509",
+    "last_updated": "2024-02-21T14:19:32Z",
+    "name": "4 Avenue du Martin Pecheur ",
+    "opening_times": {
+      "twentyfourseven": true
     },
-    {
-      "location_reference": "7B8DC27A-1135-4139-AF1E-99C50AFF67A7",
-      "operator_reference": "3357",
-      "country_reference": "1",
-      "postal_code": "SW1P 2DZ",
-      "coordinates": {
-        "lat": 51.494868,
-        "lon": -0.132312
-      },
-      "evses": [
-        {
-          "physical_identifier": "CHAdeMO",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_2"
-            }
-          ]
-        },
-        {
-          "physical_identifier": "CCS",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 50,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
-        },
-        {
-          "physical_identifier": "AC43",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 43,
-              "standard": "TYPE_ID_1036"
-            }
-          ]
-        }
-      ]
+    "operator": {
+      "name": "Green EV"
     },
-    {
-      "location_reference": "0C6C9919-2DF7-4213-840B-1BAB4D8FAA0D",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "SW1P 1QP",
-      "coordinates": {
-        "lat": 51.495977,
-        "lon": -0.137269
-      },
-      "evses": [
-        {
-          "physical_identifier": "1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_3"
-            }
-          ]
-        },
-        {
-          "physical_identifier": "2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
-        }
-      ]
+    "party_id": "GFX",
+    "postal_code": "1170",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.810732",
+        "longitude": "4.400616"
+      }
+    ]
+  },
+  {
+    "address": "281 Middendreef ",
+    "charging_when_closed": true,
+    "city": "Lelystad",
+    "coordinates": {
+      "latitude": "52.496194",
+      "longitude": "5.474364"
     },
-    {
-      "location_reference": "B3622BC7-F013-42B9-9845-68D883336884",
-      "operator_reference": "25",
-      "country_reference": "1",
-      "postal_code": "W1B 1AD",
-      "coordinates": {
-        "lat": 51.5201029380956,
-        "lon": -0.131020545959473
-      },
-      "evses": [
-        {
-          "physical_identifier": "B3622BC7-F013-42B9-9845-68D883336884-evse-1",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 7,
-              "standard": "TYPE_ID_25"
-            }
-          ]
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "56123",
+            "last_updated": "2024-02-21T14:14:30Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.496194",
+          "longitude": "5.474364"
         },
-        {
-          "physical_identifier": "B3622BC7-F013-42B9-9845-68D883336884-evse-2",
-          "status": "AVAILABLE",
-          "connectors": [
-            {
-              "power": 4,
-              "standard": "TYPE_ID_1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+        "evse_id": "GB*TNM*55682",
+        "last_updated": "2024-02-21T14:14:30Z",
+        "physical_reference": "GB*TNM*55682",
+        "status": "AVAILABLE",
+        "uid": "55682"
+      }
+    ],
+    "id": "29290",
+    "last_updated": "2024-02-21T14:14:30Z",
+    "name": "281 Middendreef ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "The New Moves"
+    },
+    "party_id": "TNM",
+    "postal_code": "8233 GT",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.496194",
+        "longitude": "5.474364"
+      }
+    ]
+  },
+  {
+    "address": "15 Bronkhorststraat ",
+    "charging_when_closed": true,
+    "city": "Leiden",
+    "coordinates": {
+      "latitude": "52.165404",
+      "longitude": "4.497438"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77184",
+            "last_updated": "2024-02-21T14:18:25Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.165404",
+          "longitude": "4.497438"
+        },
+        "evse_id": "GB*ACV*76527",
+        "last_updated": "2024-02-21T14:18:25Z",
+        "physical_reference": "GB*ACV*76527",
+        "status": "AVAILABLE",
+        "uid": "76527"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77185",
+            "last_updated": "2024-02-21T14:19:37Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.165404",
+          "longitude": "4.497438"
+        },
+        "evse_id": "GB*ACV*76528",
+        "last_updated": "2024-02-21T14:19:37Z",
+        "physical_reference": "GB*ACV*76528",
+        "status": "AVAILABLE",
+        "uid": "76528"
+      }
+    ],
+    "id": "38840",
+    "last_updated": "2024-02-21T14:19:37Z",
+    "name": "15 Bronkhorststraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "2316 SW",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.165404",
+        "longitude": "4.497438"
+      }
+    ]
+  },
+  {
+    "address": "1 Hardwareweg ",
+    "charging_when_closed": true,
+    "city": "Amersfoort",
+    "coordinates": {
+      "latitude": "52.173387",
+      "longitude": "5.410348"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "80426",
+            "last_updated": "2024-02-21T14:19:08Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.173387",
+          "longitude": "5.410348"
+        },
+        "evse_id": "GB*EVB*79748",
+        "last_updated": "2024-02-21T14:19:08Z",
+        "physical_reference": "GB*EVB*79748",
+        "status": "AVAILABLE",
+        "uid": "79748"
+      },
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "80427",
+            "last_updated": "2024-02-21T14:19:08Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.173387",
+          "longitude": "5.410348"
+        },
+        "evse_id": "GB*EVB*79749",
+        "last_updated": "2024-02-21T14:19:08Z",
+        "physical_reference": "GB*EVB*79749",
+        "status": "AVAILABLE",
+        "uid": "79749"
+      }
+    ],
+    "id": "40570",
+    "last_updated": "2024-02-21T14:19:08Z",
+    "name": "1 Hardwareweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "3821 BL",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.173387",
+        "longitude": "5.410348"
+      }
+    ]
+  },
+  {
+    "address": "2 Kanaalweg Westzijde ",
+    "charging_when_closed": true,
+    "city": "Veere",
+    "coordinates": {
+      "latitude": "51.545766",
+      "longitude": "3.667929"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "46947",
+            "last_updated": "2024-02-21T14:12:49Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.545766",
+          "longitude": "3.667929"
+        },
+        "evse_id": "GB*ACV*46567",
+        "last_updated": "2024-02-21T14:12:49Z",
+        "physical_reference": "GB*ACV*46567",
+        "status": "AVAILABLE",
+        "uid": "46567"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "46946",
+            "last_updated": "2024-02-21T14:12:49Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.545766",
+          "longitude": "3.667929"
+        },
+        "evse_id": "GB*ACV*46566",
+        "last_updated": "2024-02-21T14:12:49Z",
+        "physical_reference": "GB*ACV*46566",
+        "status": "AVAILABLE",
+        "uid": "46566"
+      }
+    ],
+    "id": "24878",
+    "last_updated": "2024-02-21T14:12:50Z",
+    "name": "2 Kanaalweg Westzijde ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "4351 RE",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.545766",
+        "longitude": "3.667929"
+      }
+    ]
+  },
+  {
+    "address": "98 Stakenbergerhout ",
+    "charging_when_closed": true,
+    "city": "Harderwijk",
+    "coordinates": {
+      "latitude": "52.320463",
+      "longitude": "5.604228"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77246",
+            "last_updated": "2024-02-21T14:19:37Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.320463",
+          "longitude": "5.604228"
+        },
+        "evse_id": "GB*ACV*76589",
+        "last_updated": "2024-02-21T14:19:37Z",
+        "physical_reference": "GB*ACV*76589",
+        "status": "AVAILABLE",
+        "uid": "76589"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77247",
+            "last_updated": "2024-02-21T14:18:25Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.320463",
+          "longitude": "5.604228"
+        },
+        "evse_id": "GB*ACV*76590",
+        "last_updated": "2024-02-21T14:18:25Z",
+        "physical_reference": "GB*ACV*76590",
+        "status": "AVAILABLE",
+        "uid": "76590"
+      }
+    ],
+    "id": "38865",
+    "last_updated": "2024-02-21T14:19:37Z",
+    "name": "98 Stakenbergerhout ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "3845 JG",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.320463",
+        "longitude": "5.604228"
+      }
+    ]
+  },
+  {
+    "address": "22 Parklaan ",
+    "charging_when_closed": true,
+    "city": "Turnhout",
+    "coordinates": {
+      "latitude": "51.311666",
+      "longitude": "4.934300"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "10112",
+            "last_updated": "2024-02-21T14:21:24Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.311666",
+          "longitude": "4.934300"
+        },
+        "evse_id": "GB*TNM*10031",
+        "last_updated": "2024-02-21T14:21:24Z",
+        "physical_reference": "GB*TNM*10031",
+        "status": "AVAILABLE",
+        "uid": "10031"
+      }
+    ],
+    "id": "4956",
+    "last_updated": "2024-02-21T14:21:24Z",
+    "name": "22 Parklaan ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "The New Moves"
+    },
+    "party_id": "TNM",
+    "postal_code": "2300",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.311666",
+        "longitude": "4.934300"
+      }
+    ]
+  },
+  {
+    "address": "9 Energieweg ",
+    "charging_when_closed": true,
+    "city": "Zwolle",
+    "coordinates": {
+      "latitude": "52.495942",
+      "longitude": "6.106323"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "68320",
+            "last_updated": "2024-02-21T14:16:22Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.495942",
+          "longitude": "6.106323"
+        },
+        "evse_id": "GB*ACV*67796",
+        "last_updated": "2024-02-21T14:16:22Z",
+        "physical_reference": "GB*ACV*67796",
+        "status": "AVAILABLE",
+        "uid": "67796"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "68321",
+            "last_updated": "2024-02-21T14:16:22Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.495942",
+          "longitude": "6.106323"
+        },
+        "evse_id": "GB*ACV*67797",
+        "last_updated": "2024-02-21T14:16:22Z",
+        "physical_reference": "GB*ACV*67797",
+        "status": "AVAILABLE",
+        "uid": "67797"
+      }
+    ],
+    "id": "34870",
+    "last_updated": "2024-02-21T14:16:22Z",
+    "name": "9 Energieweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "8017 BE",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.495942",
+        "longitude": "6.106323"
+      }
+    ]
+  },
+  {
+    "address": "21 Van Disselstraat ",
+    "charging_when_closed": true,
+    "city": "Zwolle",
+    "coordinates": {
+      "latitude": "52.540936",
+      "longitude": "6.035809"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "29705",
+            "last_updated": "2024-02-21T14:08:48Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.540936",
+          "longitude": "6.035809"
+        },
+        "evse_id": "GB*ACV*29424",
+        "last_updated": "2024-02-21T14:08:48Z",
+        "physical_reference": "GB*ACV*29424",
+        "status": "AVAILABLE",
+        "uid": "29424"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "29706",
+            "last_updated": "2024-02-21T14:08:48Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.540936",
+          "longitude": "6.035809"
+        },
+        "evse_id": "GB*ACV*29425",
+        "last_updated": "2024-02-21T14:08:48Z",
+        "physical_reference": "GB*ACV*29425",
+        "status": "AVAILABLE",
+        "uid": "29425"
+      }
+    ],
+    "id": "15398",
+    "last_updated": "2024-02-21T14:08:48Z",
+    "name": "21 Van Disselstraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "8044 PL",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.540936",
+        "longitude": "6.035809"
+      }
+    ]
+  },
+  {
+    "address": "32 Laaxumstraat ",
+    "charging_when_closed": true,
+    "city": "Amersfoort",
+    "coordinates": {
+      "latitude": "52.199440",
+      "longitude": "5.432994"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "43925",
+            "last_updated": "2024-02-21T14:10:55Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.199440",
+          "longitude": "5.432994"
+        },
+        "evse_id": "GB*EVB*43583",
+        "last_updated": "2024-02-21T14:10:55Z",
+        "physical_reference": "GB*EVB*43583",
+        "status": "AVAILABLE",
+        "uid": "43583"
+      }
+    ],
+    "id": "23225",
+    "last_updated": "2024-02-21T14:10:55Z",
+    "name": "32 Laaxumstraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "3826 AJ",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.199440",
+        "longitude": "5.432994"
+      }
+    ]
+  },
+  {
+    "address": "2 Minderbroedersstraat ",
+    "charging_when_closed": true,
+    "city": "Genk",
+    "coordinates": {
+      "latitude": "50.999389",
+      "longitude": "5.507735"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "28824",
+            "last_updated": "2024-02-21T14:08:27Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.999389",
+          "longitude": "5.507735"
+        },
+        "evse_id": "GB*ACV*28549",
+        "last_updated": "2024-02-21T14:08:27Z",
+        "physical_reference": "GB*ACV*28549",
+        "status": "AVAILABLE",
+        "uid": "28549"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "28825",
+            "last_updated": "2024-02-21T14:08:27Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.999389",
+          "longitude": "5.507735"
+        },
+        "evse_id": "GB*ACV*28550",
+        "last_updated": "2024-02-21T14:08:27Z",
+        "physical_reference": "GB*ACV*28550",
+        "status": "AVAILABLE",
+        "uid": "28550"
+      }
+    ],
+    "id": "14921",
+    "last_updated": "2024-02-21T14:08:27Z",
+    "name": "2 Minderbroedersstraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "3600",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.999389",
+        "longitude": "5.507735"
+      }
+    ]
+  },
+  {
+    "address": "133 Ida Gerhardtsingel ",
+    "charging_when_closed": true,
+    "city": "Zutphen",
+    "coordinates": {
+      "latitude": "52.129325",
+      "longitude": "6.224435"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "72913",
+            "last_updated": "2024-02-21T14:18:13Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.129325",
+          "longitude": "6.224435"
+        },
+        "evse_id": "GB*ACV*72275",
+        "last_updated": "2024-02-21T14:18:13Z",
+        "physical_reference": "GB*ACV*72275",
+        "status": "AVAILABLE",
+        "uid": "72275"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "72914",
+            "last_updated": "2024-02-21T14:18:13Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.129325",
+          "longitude": "6.224435"
+        },
+        "evse_id": "GB*ACV*72276",
+        "last_updated": "2024-02-21T14:18:13Z",
+        "physical_reference": "GB*ACV*72276",
+        "status": "AVAILABLE",
+        "uid": "72276"
+      }
+    ],
+    "id": "36685",
+    "last_updated": "2024-02-21T14:18:13Z",
+    "name": "133 Ida Gerhardtsingel ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "7207 CL",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.129325",
+        "longitude": "6.224435"
+      }
+    ]
+  },
+  {
+    "address": "102a Drieschouwen ",
+    "charging_when_closed": true,
+    "city": "Stekene",
+    "coordinates": {
+      "latitude": "51.219337",
+      "longitude": "4.065091"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "14316",
+            "last_updated": "2024-02-21T14:22:09Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.219337",
+          "longitude": "4.065091"
+        },
+        "evse_id": "GB*EVB*14204",
+        "last_updated": "2024-02-21T14:22:09Z",
+        "physical_reference": "GB*EVB*14204",
+        "status": "AVAILABLE",
+        "uid": "14204"
+      }
+    ],
+    "id": "7315",
+    "last_updated": "2024-02-21T14:22:09Z",
+    "name": "102a Drieschouwen ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "9190",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.219337",
+        "longitude": "4.065091"
+      }
+    ]
+  },
+  {
+    "address": "5 Reviusplein ",
+    "charging_when_closed": true,
+    "city": "Maassluis",
+    "coordinates": {
+      "latitude": "51.923934",
+      "longitude": "4.264538"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "20408",
+            "last_updated": "2024-02-21T14:07:43Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.923934",
+          "longitude": "4.264538"
+        },
+        "evse_id": "GB*ACV*20231",
+        "last_updated": "2024-02-21T14:07:43Z",
+        "physical_reference": "GB*ACV*20231",
+        "status": "AVAILABLE",
+        "uid": "20231"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "20409",
+            "last_updated": "2024-02-21T14:07:43Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.923934",
+          "longitude": "4.264538"
+        },
+        "evse_id": "GB*ACV*20232",
+        "last_updated": "2024-02-21T14:07:43Z",
+        "physical_reference": "GB*ACV*20232",
+        "status": "AVAILABLE",
+        "uid": "20232"
+      }
+    ],
+    "id": "10482",
+    "last_updated": "2024-02-21T14:07:43Z",
+    "name": "5 Reviusplein ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "3141 SV",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.923934",
+        "longitude": "4.264538"
+      }
+    ]
+  },
+  {
+    "address": "302 Thorbeckeweg ",
+    "charging_when_closed": true,
+    "city": "Dordrecht",
+    "coordinates": {
+      "latitude": "51.790687",
+      "longitude": "4.662630"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "35201",
+            "last_updated": "2024-02-21T14:23:29Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.790687",
+          "longitude": "4.662630"
+        },
+        "evse_id": "GB*ACV*34902",
+        "last_updated": "2024-02-21T14:23:29Z",
+        "physical_reference": "GB*ACV*34902",
+        "status": "AVAILABLE",
+        "uid": "34902"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "35202",
+            "last_updated": "2024-02-21T14:23:30Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.790687",
+          "longitude": "4.662630"
+        },
+        "evse_id": "GB*ACV*34903",
+        "last_updated": "2024-02-21T14:23:30Z",
+        "physical_reference": "GB*ACV*34903",
+        "status": "AVAILABLE",
+        "uid": "34903"
+      }
+    ],
+    "id": "18449",
+    "last_updated": "2024-02-21T14:23:30Z",
+    "name": "302 Thorbeckeweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "3317 EN",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.790687",
+        "longitude": "4.662630"
+      }
+    ]
+  },
+  {
+    "address": "24 Quakenbr\u00fccker Stra\u00dfe ",
+    "charging_when_closed": true,
+    "city": "Menslage",
+    "coordinates": {
+      "latitude": "52.673594",
+      "longitude": "7.824012"
+    },
+    "country": "DEU",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "45446",
+            "last_updated": "2024-02-21T14:12:17Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.673594",
+          "longitude": "7.824012"
+        },
+        "evse_id": "GB*TNM*45088",
+        "floor_level": "0",
+        "last_updated": "2024-02-21T14:12:17Z",
+        "physical_reference": "GB*TNM*45088",
+        "status": "AVAILABLE",
+        "uid": "45088"
+      }
+    ],
+    "id": "24084",
+    "last_updated": "2024-02-21T14:12:17Z",
+    "name": "24 Quakenbr\u00fccker Stra\u00dfe ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "The New Moves"
+    },
+    "party_id": "TNM",
+    "postal_code": "49637",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.673594",
+        "longitude": "7.824012"
+      }
+    ]
+  },
+  {
+    "address": "2 Boeierwerf ",
+    "charging_when_closed": true,
+    "city": "Leiden",
+    "coordinates": {
+      "latitude": "52.175482",
+      "longitude": "4.514919"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "47544",
+            "last_updated": "2024-02-21T14:13:03Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.175482",
+          "longitude": "4.514919"
+        },
+        "evse_id": "GB*ACV*47150",
+        "last_updated": "2024-02-21T14:13:03Z",
+        "physical_reference": "GB*ACV*47150",
+        "status": "AVAILABLE",
+        "uid": "47150"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "47545",
+            "last_updated": "2024-02-21T14:13:03Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.175482",
+          "longitude": "4.514919"
+        },
+        "evse_id": "GB*ACV*47151",
+        "last_updated": "2024-02-21T14:13:03Z",
+        "physical_reference": "GB*ACV*47151",
+        "status": "AVAILABLE",
+        "uid": "47151"
+      }
+    ],
+    "id": "25205",
+    "last_updated": "2024-02-21T14:13:03Z",
+    "name": "2 Boeierwerf ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "2317 EA",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.175482",
+        "longitude": "4.514919"
+      }
+    ]
+  },
+  {
+    "address": "18 Nieuwlandersingel ",
+    "charging_when_closed": true,
+    "city": "Alkmaar",
+    "coordinates": {
+      "latitude": "52.627240",
+      "longitude": "4.748770"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "32467",
+            "last_updated": "2024-02-21T14:08:57Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.627240",
+          "longitude": "4.748770"
+        },
+        "evse_id": "GB*PPE*32173",
+        "last_updated": "2024-02-21T14:08:57Z",
+        "physical_reference": "GB*PPE*32173",
+        "status": "AVAILABLE",
+        "uid": "32173"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "32468",
+            "last_updated": "2024-02-21T14:08:57Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.627240",
+          "longitude": "4.748770"
+        },
+        "evse_id": "GB*PPE*32174",
+        "last_updated": "2024-02-21T14:08:57Z",
+        "physical_reference": "GB*PPE*32174",
+        "status": "AVAILABLE",
+        "uid": "32174"
+      }
+    ],
+    "id": "16901",
+    "last_updated": "2024-02-21T14:08:57Z",
+    "name": "18 Nieuwlandersingel ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "PPEV"
+    },
+    "party_id": "PPE",
+    "postal_code": "1814 CH",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.627240",
+        "longitude": "4.748770"
+      }
+    ]
+  },
+  {
+    "address": "52 Van Somerenweg ",
+    "charging_when_closed": true,
+    "city": "Rotterdam",
+    "coordinates": {
+      "latitude": "51.921126",
+      "longitude": "4.521147"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "29671",
+            "last_updated": "2024-02-21T14:08:46Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.921126",
+          "longitude": "4.521147"
+        },
+        "evse_id": "GB*EVB*29390",
+        "last_updated": "2024-02-21T14:08:46Z",
+        "physical_reference": "GB*EVB*29390",
+        "status": "AVAILABLE",
+        "uid": "29390"
+      },
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "29672",
+            "last_updated": "2024-02-21T14:08:46Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.921126",
+          "longitude": "4.521147"
+        },
+        "evse_id": "GB*EVB*29391",
+        "last_updated": "2024-02-21T14:08:46Z",
+        "physical_reference": "GB*EVB*29391",
+        "status": "AVAILABLE",
+        "uid": "29391"
+      }
+    ],
+    "id": "15377",
+    "last_updated": "2024-02-21T14:08:46Z",
+    "name": "52 Van Somerenweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "3062 RK",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.921126",
+        "longitude": "4.521147"
+      }
+    ]
+  },
+  {
+    "address": "764 Homerusstraat ",
+    "charging_when_closed": true,
+    "city": "Rotterdam",
+    "coordinates": {
+      "latitude": "51.874526",
+      "longitude": "4.531431"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "58515",
+            "last_updated": "2024-02-21T14:15:24Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.874526",
+          "longitude": "4.531431"
+        },
+        "evse_id": "GB*EVB*58058",
+        "last_updated": "2024-02-21T14:15:24Z",
+        "physical_reference": "GB*EVB*58058",
+        "status": "AVAILABLE",
+        "uid": "58058"
+      },
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "58516",
+            "last_updated": "2024-02-21T14:15:24Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.874526",
+          "longitude": "4.531431"
+        },
+        "evse_id": "GB*EVB*58059",
+        "last_updated": "2024-02-21T14:15:24Z",
+        "physical_reference": "GB*EVB*58059",
+        "status": "AVAILABLE",
+        "uid": "58059"
+      }
+    ],
+    "id": "30466",
+    "last_updated": "2024-02-21T14:15:24Z",
+    "name": "764 Homerusstraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "3076 LH",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.874526",
+        "longitude": "4.531431"
+      }
+    ]
+  },
+  {
+    "address": "12 Hyacinthlaan ",
+    "charging_when_closed": true,
+    "city": "Noorden",
+    "coordinates": {
+      "latitude": "52.168055",
+      "longitude": "4.825713"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "8728",
+            "last_updated": "2024-02-21T14:20:29Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.168055",
+          "longitude": "4.825713"
+        },
+        "evse_id": "GB*ACV*8657",
+        "last_updated": "2024-02-21T14:20:29Z",
+        "physical_reference": "GB*ACV*8657",
+        "status": "AVAILABLE",
+        "uid": "8657"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "8729",
+            "last_updated": "2024-02-21T14:20:30Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.168055",
+          "longitude": "4.825713"
+        },
+        "evse_id": "GB*ACV*8658",
+        "last_updated": "2024-02-21T14:20:30Z",
+        "physical_reference": "GB*ACV*8658",
+        "status": "AVAILABLE",
+        "uid": "8658"
+      }
+    ],
+    "id": "4185",
+    "last_updated": "2024-02-21T14:20:30Z",
+    "name": "12 Hyacinthlaan ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "2431 ZC",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.168055",
+        "longitude": "4.825713"
+      }
+    ]
+  },
+  {
+    "address": "1 Gemeenschapspolderweg ",
+    "charging_when_closed": true,
+    "city": "Weesp",
+    "coordinates": {
+      "latitude": "52.313884",
+      "longitude": "5.025422"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "23065",
+            "last_updated": "2024-02-21T14:23:06Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.313884",
+          "longitude": "5.025422"
+        },
+        "evse_id": "GB*TNM*22854",
+        "last_updated": "2024-02-21T14:23:06Z",
+        "physical_reference": "GB*TNM*22854",
+        "status": "AVAILABLE",
+        "uid": "22854"
+      }
+    ],
+    "id": "11814",
+    "last_updated": "2024-02-21T14:23:06Z",
+    "name": "1 Gemeenschapspolderweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "The New Moves"
+    },
+    "party_id": "TNM",
+    "postal_code": "1382 JL",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.313884",
+        "longitude": "5.025422"
+      }
+    ]
+  },
+  {
+    "address": "17 Industrieweg ",
+    "charging_when_closed": true,
+    "city": "Stein",
+    "coordinates": {
+      "latitude": "50.977578",
+      "longitude": "5.764242"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77093",
+            "last_updated": "2024-02-21T14:19:36Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.977578",
+          "longitude": "5.764242"
+        },
+        "evse_id": "GB*EVB*76436",
+        "last_updated": "2024-02-21T14:19:36Z",
+        "physical_reference": "GB*EVB*76436",
+        "status": "AVAILABLE",
+        "uid": "76436"
+      },
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77094",
+            "last_updated": "2024-02-21T14:18:23Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.977578",
+          "longitude": "5.764242"
+        },
+        "evse_id": "GB*EVB*76437",
+        "last_updated": "2024-02-21T14:18:23Z",
+        "physical_reference": "GB*EVB*76437",
+        "status": "AVAILABLE",
+        "uid": "76437"
+      }
+    ],
+    "id": "38801",
+    "last_updated": "2024-02-21T14:19:36Z",
+    "name": "17 Industrieweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "6171 CN",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.977578",
+        "longitude": "5.764242"
+      }
+    ]
+  },
+  {
+    "address": "2 Place Dailly ",
+    "charging_when_closed": true,
+    "city": "Schaerbeek",
+    "coordinates": {
+      "latitude": "50.851980",
+      "longitude": "4.387140"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "86459",
+            "last_updated": "2024-02-21T14:24:27Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.851980",
+          "longitude": "4.387140"
+        },
+        "evse_id": "GB*GFX*85760",
+        "last_updated": "2024-02-21T14:24:27Z",
+        "physical_reference": "GB*GFX*85760",
+        "status": "AVAILABLE",
+        "uid": "85760"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "86460",
+            "last_updated": "2024-02-21T14:24:27Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.851980",
+          "longitude": "4.387140"
+        },
+        "evse_id": "GB*GFX*85761",
+        "last_updated": "2024-02-21T14:24:27Z",
+        "physical_reference": "GB*GFX*85761",
+        "status": "AVAILABLE",
+        "uid": "85761"
+      }
+    ],
+    "id": "43804",
+    "last_updated": "2024-02-21T14:24:27Z",
+    "name": "2 Place Dailly ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "Green EV"
+    },
+    "party_id": "GFX",
+    "postal_code": "1030",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.851980",
+        "longitude": "4.387140"
+      }
+    ]
+  },
+  {
+    "address": "230 Van der Valk Boumanweg ",
+    "charging_when_closed": true,
+    "city": "Leiderdorp",
+    "coordinates": {
+      "latitude": "52.160425",
+      "longitude": "4.516279"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "67055",
+            "last_updated": "2024-02-21T14:15:10Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.160425",
+          "longitude": "4.516279"
+        },
+        "evse_id": "GB*ACV*66534",
+        "last_updated": "2024-02-21T14:15:10Z",
+        "physical_reference": "GB*ACV*66534",
+        "status": "AVAILABLE",
+        "uid": "66534"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "67056",
+            "last_updated": "2024-02-21T14:15:10Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.160425",
+          "longitude": "4.516279"
+        },
+        "evse_id": "GB*ACV*66535",
+        "last_updated": "2024-02-21T14:15:10Z",
+        "physical_reference": "GB*ACV*66535",
+        "status": "AVAILABLE",
+        "uid": "66535"
+      }
+    ],
+    "id": "34390",
+    "last_updated": "2024-02-21T14:15:10Z",
+    "name": "230 Van der Valk Boumanweg ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "2352 JG",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.160425",
+        "longitude": "4.516279"
+      }
+    ]
+  },
+  {
+    "address": "54 Normastraat ",
+    "charging_when_closed": true,
+    "city": "Apeldoorn",
+    "coordinates": {
+      "latitude": "52.231376",
+      "longitude": "5.984611"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "75826",
+            "last_updated": "2024-02-21T14:17:41Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.231376",
+          "longitude": "5.984611"
+        },
+        "evse_id": "GB*ACV*75172",
+        "last_updated": "2024-02-21T14:17:41Z",
+        "physical_reference": "GB*ACV*75172",
+        "status": "AVAILABLE",
+        "uid": "75172"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "75827",
+            "last_updated": "2024-02-21T14:17:41Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.231376",
+          "longitude": "5.984611"
+        },
+        "evse_id": "GB*ACV*75173",
+        "last_updated": "2024-02-21T14:17:41Z",
+        "physical_reference": "GB*ACV*75173",
+        "status": "AVAILABLE",
+        "uid": "75173"
+      }
+    ],
+    "id": "38176",
+    "last_updated": "2024-02-21T14:17:41Z",
+    "name": "54 Normastraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "7323 TT",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.231376",
+        "longitude": "5.984611"
+      }
+    ]
+  },
+  {
+    "address": "108 Kruiskampsingel ",
+    "charging_when_closed": true,
+    "city": "'s-Hertogenbosch",
+    "coordinates": {
+      "latitude": "51.701216",
+      "longitude": "5.258355"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "28899",
+            "last_updated": "2024-02-21T14:23:18Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.701216",
+          "longitude": "5.258355"
+        },
+        "evse_id": "GB*ACV*28623",
+        "last_updated": "2024-02-21T14:23:18Z",
+        "physical_reference": "GB*ACV*28623",
+        "status": "AVAILABLE",
+        "uid": "28623"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "28900",
+            "last_updated": "2024-02-21T14:23:18Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.701216",
+          "longitude": "5.258355"
+        },
+        "evse_id": "GB*ACV*28624",
+        "last_updated": "2024-02-21T14:23:18Z",
+        "physical_reference": "GB*ACV*28624",
+        "status": "AVAILABLE",
+        "uid": "28624"
+      }
+    ],
+    "id": "14965",
+    "last_updated": "2024-02-21T14:23:18Z",
+    "name": "108 Kruiskampsingel ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "5224 KP",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.701216",
+        "longitude": "5.258355"
+      }
+    ]
+  },
+  {
+    "address": "11 Siemenslaan ",
+    "charging_when_closed": true,
+    "city": "Oostkamp",
+    "coordinates": {
+      "latitude": "51.147692",
+      "longitude": "3.240696"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "21038",
+            "last_updated": "2024-02-21T14:07:21Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.147692",
+          "longitude": "3.240696"
+        },
+        "evse_id": "GB*EVB*20852",
+        "last_updated": "2024-02-21T14:07:21Z",
+        "physical_reference": "GB*EVB*20852",
+        "status": "AVAILABLE",
+        "uid": "20852"
+      },
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "21039",
+            "last_updated": "2024-02-21T14:07:21Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.147692",
+          "longitude": "3.240696"
+        },
+        "evse_id": "GB*EVB*20853",
+        "last_updated": "2024-02-21T14:07:21Z",
+        "physical_reference": "GB*EVB*20853",
+        "status": "AVAILABLE",
+        "uid": "20853"
+      }
+    ],
+    "id": "10796",
+    "last_updated": "2024-02-21T14:07:21Z",
+    "name": "11 Siemenslaan ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "8020",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.147692",
+        "longitude": "3.240696"
+      }
+    ]
+  },
+  {
+    "address": "1 Ruelle du Cur\u00e9 ",
+    "charging_when_closed": true,
+    "city": "Lasne",
+    "coordinates": {
+      "latitude": "50.692707",
+      "longitude": "4.500379"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "27304",
+            "last_updated": "2024-02-21T14:23:55Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.692707",
+          "longitude": "4.500379"
+        },
+        "evse_id": "GB*EVB*27054",
+        "last_updated": "2024-02-21T14:23:55Z",
+        "physical_reference": "GB*EVB*27054",
+        "status": "AVAILABLE",
+        "uid": "27054"
+      }
+    ],
+    "id": "14162",
+    "last_updated": "2024-02-21T14:23:55Z",
+    "name": "1 Ruelle du Cur\u00e9 ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "1380",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.692707",
+        "longitude": "4.500379"
+      }
+    ]
+  },
+  {
+    "address": "34 Oenselsestraat ",
+    "charging_when_closed": true,
+    "city": "Zaltbommel",
+    "coordinates": {
+      "latitude": "51.813458",
+      "longitude": "5.252805"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77814",
+            "last_updated": "2024-02-21T14:18:33Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.813458",
+          "longitude": "5.252805"
+        },
+        "evse_id": "GB*ACV*77154",
+        "last_updated": "2024-02-21T14:18:33Z",
+        "physical_reference": "GB*ACV*77154",
+        "status": "AVAILABLE",
+        "uid": "77154"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "77813",
+            "last_updated": "2024-02-21T14:18:33Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.813458",
+          "longitude": "5.252805"
+        },
+        "evse_id": "GB*ACV*77153",
+        "last_updated": "2024-02-21T14:18:33Z",
+        "physical_reference": "GB*ACV*77153",
+        "status": "AVAILABLE",
+        "uid": "77153"
+      }
+    ],
+    "id": "39171",
+    "last_updated": "2024-02-21T14:18:33Z",
+    "name": "34 Oenselsestraat ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "5301 EP",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.813458",
+        "longitude": "5.252805"
+      }
+    ]
+  },
+  {
+    "address": "179 Avenue Voltaire ",
+    "charging_when_closed": true,
+    "city": "Schaerbeek",
+    "coordinates": {
+      "latitude": "50.865530",
+      "longitude": "4.380270"
+    },
+    "country": "BEL",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "89523",
+            "last_updated": "2024-02-21T14:25:02Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.865530",
+          "longitude": "4.380270"
+        },
+        "evse_id": "GB*GFX*88806",
+        "last_updated": "2024-02-21T14:25:02Z",
+        "physical_reference": "GB*GFX*88806",
+        "status": "AVAILABLE",
+        "uid": "88806"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "89524",
+            "last_updated": "2024-02-21T14:25:02Z",
+            "max_amperage": 32,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "50.865530",
+          "longitude": "4.380270"
+        },
+        "evse_id": "GB*GFX*88807",
+        "last_updated": "2024-02-21T14:25:02Z",
+        "physical_reference": "GB*GFX*88807",
+        "status": "AVAILABLE",
+        "uid": "88807"
+      }
+    ],
+    "id": "45410",
+    "last_updated": "2024-02-21T14:25:02Z",
+    "name": "179 Avenue Voltaire ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "Green EV"
+    },
+    "party_id": "GFX",
+    "postal_code": "1030",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "50.865530",
+        "longitude": "4.380270"
+      }
+    ]
+  },
+  {
+    "address": "32 Maalderij ",
+    "charging_when_closed": true,
+    "city": "Amstelveen",
+    "coordinates": {
+      "latitude": "52.289070",
+      "longitude": "4.840146"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "85857",
+            "last_updated": "2024-02-21T14:24:21Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.289070",
+          "longitude": "4.840146"
+        },
+        "evse_id": "GB*ACV*85159",
+        "last_updated": "2024-02-21T14:24:21Z",
+        "physical_reference": "GB*ACV*85159",
+        "status": "AVAILABLE",
+        "uid": "85159"
+      },
+      {
+        "capabilities": [
+          "RFID_READER",
+          "CREDIT_CARD_PAYABLE",
+          "REMOTE_START_STOP_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "85858",
+            "last_updated": "2024-02-21T14:24:21Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "52.289070",
+          "longitude": "4.840146"
+        },
+        "evse_id": "GB*ACV*85160",
+        "last_updated": "2024-02-21T14:24:21Z",
+        "physical_reference": "GB*ACV*85160",
+        "status": "AVAILABLE",
+        "uid": "85160"
+      }
+    ],
+    "id": "43499",
+    "last_updated": "2024-02-21T14:24:21Z",
+    "name": "32 Maalderij ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "ACV"
+    },
+    "party_id": "ACV",
+    "postal_code": "1185 ZC",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "52.289070",
+        "longitude": "4.840146"
+      }
+    ]
+  },
+  {
+    "address": "24 Bosch ",
+    "charging_when_closed": true,
+    "city": "Papendrecht",
+    "coordinates": {
+      "latitude": "51.824419",
+      "longitude": "4.689834"
+    },
+    "country": "NLD",
+    "evses": [
+      {
+        "capabilities": [
+          "RFID_READER"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "78531",
+            "last_updated": "2024-02-21T14:19:44Z",
+            "max_amperage": 16,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "1"
+            ]
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.824419",
+          "longitude": "4.689834"
+        },
+        "evse_id": "GB*EVB*77870",
+        "last_updated": "2024-02-21T14:19:44Z",
+        "physical_reference": "GB*EVB*77870",
+        "status": "AVAILABLE",
+        "uid": "77870"
+      }
+    ],
+    "id": "39523",
+    "last_updated": "2024-02-21T14:19:44Z",
+    "name": "24 Bosch ",
+    "opening_times": {
+      "twentyfourseven": true
+    },
+    "operator": {
+      "name": "EVB"
+    },
+    "party_id": "EVB",
+    "postal_code": "3353 GE",
+    "publish": true,
+    "related_locations": [
+      {
+        "latitude": "51.824419",
+        "longitude": "4.689834"
+      }
+    ]
+  },
+  {
+    "address": "Marlow road",
+    "charging_when_closed": false,
+    "city": "Henley on thames",
+    "coordinates": {
+      "latitude": "51.5460750",
+      "longitude": "-0.9049240"
+    },
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "abea37ae-83b0-5c33-ba59-2992e159ee75",
+            "last_updated": "2024-07-03T14:59:04Z",
+            "max_amperage": 30,
+            "max_electric_power": 22000,
+            "max_voltage": 400,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "65e74939-5835-5455-b67a-718c2bf956a1"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.5460750",
+          "longitude": "-0.9049240"
+        },
+        "directions": null,
+        "evse_id": "Joey-Dawn-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-03T14:59:04Z",
+        "parking_restrictions": null,
+        "physical_reference": "Joey-Dawn",
+        "status": "UNKNOWN",
+        "status_schedule": null,
+        "uid": "abea37ae-83b0-5c33-ba59-2992e159ee75"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "a9500063-0289-5dde-aa12-4ea1e0a9dd47",
+            "last_updated": "2024-07-09T18:57:56Z",
+            "max_amperage": 30,
+            "max_electric_power": 22000,
+            "max_voltage": 400,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "65e74939-5835-5455-b67a-718c2bf956a1"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.5460750",
+          "longitude": "-0.9049240"
+        },
+        "directions": null,
+        "evse_id": "Joey-Dawn-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-09T18:57:56Z",
+        "parking_restrictions": null,
+        "physical_reference": "Joey-Dawn",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "a9500063-0289-5dde-aa12-4ea1e0a9dd47"
+      }
+    ],
+    "facilities": null,
+    "id": "92328a59-c845-5049-ab5c-e44672999996",
+    "images": null,
+    "last_updated": "2024-07-09T18:57:56Z",
+    "name": "Swiss Farm International Camping",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "POD",
+    "postal_code": "RG9 2HY",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "London Road, County Oak",
+    "charging_when_closed": false,
+    "city": "Gatwick",
+    "coordinates": {
+      "latitude": "51.1365800",
+      "longitude": "-0.1855800"
+    },
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "e4bb5814-2d71-5ca8-8883-bab7af975f6c",
+            "last_updated": "2024-07-05T08:54:55Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Niki-Paul-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-05T08:54:55Z",
+        "parking_restrictions": null,
+        "physical_reference": "Niki-Paul",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "e4bb5814-2d71-5ca8-8883-bab7af975f6c"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "4e9bbae0-2422-5649-8208-2f8f92dadfcb",
+            "last_updated": "2024-07-05T08:54:55Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Owen-Lisa-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-05T08:54:55Z",
+        "parking_restrictions": null,
+        "physical_reference": "Owen-Lisa",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "4e9bbae0-2422-5649-8208-2f8f92dadfcb"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "2cce19b7-0dda-5ddf-beff-850e7a777b07",
+            "last_updated": "2024-07-09T14:31:58Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Bing-Tara-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-09T14:31:58Z",
+        "parking_restrictions": null,
+        "physical_reference": "Bing-Tara",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "2cce19b7-0dda-5ddf-beff-850e7a777b07"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "be5b7183-8516-5ea9-8b90-c2f0e1364a14",
+            "last_updated": "2024-07-05T08:54:55Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Isla-Nick-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-05T08:54:55Z",
+        "parking_restrictions": null,
+        "physical_reference": "Isla-Nick",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "be5b7183-8516-5ea9-8b90-c2f0e1364a14"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "880ed1a5-10fd-542d-87d2-ab14ca52518c",
+            "last_updated": "2024-07-08T04:36:14Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Jody-Paul-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-08T04:36:14Z",
+        "parking_restrictions": null,
+        "physical_reference": "Jody-Paul",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "880ed1a5-10fd-542d-87d2-ab14ca52518c"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED"
+        ],
+        "connectors": [
+          {
+            "format": "SOCKET",
+            "id": "49bee35e-a8bc-5f16-bcd9-b2f0555514b3",
+            "last_updated": "2024-07-05T08:54:55Z",
+            "max_amperage": 32,
+            "max_electric_power": 7000,
+            "max_voltage": 230,
+            "power_type": "AC_1_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "de5ef530-c6a8-51ef-9bc2-53b2ccc239bb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "51.1365800",
+          "longitude": "-0.1855800"
+        },
+        "directions": null,
+        "evse_id": "Emma-Herb-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-05T08:54:55Z",
+        "parking_restrictions": null,
+        "physical_reference": "Emma-Herb",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "49bee35e-a8bc-5f16-bcd9-b2f0555514b3"
+      }
+    ],
+    "facilities": null,
+    "id": "ebd6dc0c-e568-5456-8b17-2f6dfbecf998",
+    "images": null,
+    "last_updated": "2024-07-09T14:31:58Z",
+    "name": "Ibis Styles, London Gatwick Airport",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "POD",
+    "postal_code": "RH10 9GY",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  },
+  {
+    "address": "1 Jennison Street Bulwell",
+    "charging_when_closed": false,
+    "city": "Nottingham",
+    "coordinates": {
+      "latitude": "53.0039460",
+      "longitude": "-1.1935200"
+    },
+    "country": "GBR",
+    "directions": null,
+    "energy_mix": null,
+    "evses": [
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED",
+          "UNLOCK_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "e48c109b-51c5-5822-98dc-3b5c91e839eb",
+            "last_updated": "2024-07-10T16:07:15Z",
+            "max_amperage": 32,
+            "max_electric_power": 22000,
+            "max_voltage": 400,
+            "power_type": "AC_3_PHASE",
+            "standard": "IEC_62196_T2",
+            "tariff_ids": [
+              "9d7b532b-7549-5273-ab2d-49951764fcfb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "53.0039460",
+          "longitude": "-1.1935200"
+        },
+        "directions": null,
+        "evse_id": "Loni-Avri-A",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-10T16:07:15Z",
+        "parking_restrictions": null,
+        "physical_reference": "Loni-Avri",
+        "status": "OUTOFORDER",
+        "status_schedule": null,
+        "uid": "e48c109b-51c5-5822-98dc-3b5c91e839eb"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED",
+          "UNLOCK_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "ab85081d-8f37-52d1-aa7d-af7006b01364",
+            "last_updated": "2024-07-10T16:07:15Z",
+            "max_amperage": 125,
+            "max_electric_power": 50000,
+            "max_voltage": 0,
+            "power_type": "DC",
+            "standard": "IEC_62196_T2_COMBO",
+            "tariff_ids": [
+              "9d7b532b-7549-5273-ab2d-49951764fcfb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "53.0039460",
+          "longitude": "-1.1935200"
+        },
+        "directions": null,
+        "evse_id": "Loni-Avri-B",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-10T16:07:15Z",
+        "parking_restrictions": null,
+        "physical_reference": "Loni-Avri",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "ab85081d-8f37-52d1-aa7d-af7006b01364"
+      },
+      {
+        "capabilities": [
+          "REMOTE_START_STOP_CAPABLE",
+          "START_SESSION_CONNECTOR_REQUIRED",
+          "UNLOCK_CAPABLE"
+        ],
+        "connectors": [
+          {
+            "format": "CABLE",
+            "id": "901cabb5-4f2e-5d8d-9c1e-437a7b472c0d",
+            "last_updated": "2024-07-10T16:07:15Z",
+            "max_amperage": 125,
+            "max_electric_power": 50000,
+            "max_voltage": 0,
+            "power_type": "DC",
+            "standard": "CHADEMO",
+            "tariff_ids": [
+              "9d7b532b-7549-5273-ab2d-49951764fcfb"
+            ],
+            "terms_and_conditions": null
+          }
+        ],
+        "coordinates": {
+          "latitude": "53.0039460",
+          "longitude": "-1.1935200"
+        },
+        "directions": null,
+        "evse_id": "Loni-Avri-C",
+        "floor_level": null,
+        "images": null,
+        "last_updated": "2024-07-10T16:07:15Z",
+        "parking_restrictions": null,
+        "physical_reference": "Loni-Avri",
+        "status": "AVAILABLE",
+        "status_schedule": null,
+        "uid": "901cabb5-4f2e-5d8d-9c1e-437a7b472c0d"
+      }
+    ],
+    "facilities": null,
+    "id": "c9125a86-76d1-5e14-b233-bd449732ed7e",
+    "images": null,
+    "last_updated": "2024-07-10T16:07:15Z",
+    "name": "Lidl - Bulwell",
+    "opening_times": null,
+    "operator": null,
+    "owner": null,
+    "parking_type": null,
+    "party_id": "POD",
+    "postal_code": "NG6 8EQ",
+    "publish": true,
+    "publish_allowed_to": null,
+    "related_locations": null,
+    "state": "",
+    "suboperator": null,
+    "time_zone": "Europe/London"
+  }
+]
