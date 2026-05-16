@@ -50,5 +50,6 @@ python manage.py test src.task.tests
 ```
 
 ## Notes
-- Source data comes from Open Charge Map and is converted to integrated.json via scripts/ocm_to_integrated.py.
+- Source data is provided by the company in integrated.json (new schema).
 - The API is a simple REST JSON interface using plain Django views.
+
