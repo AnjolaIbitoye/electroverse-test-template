@@ -12,35 +12,36 @@ from src.task.models import Connector, Country, EVSE, Location, Operator
 
 class LoadIntegratedCommandTests(TestCase):
     def test_load_integrated_persists_data(self):
-        # build a tiny sample JSON to load.
-        sample = {
-            "operators": [
-                {"operator_reference": "OP-1", "name": "Operator One"}
-            ],
-            "countries": [
-                {"country_reference": "GB", "name": "United Kingdom"}
-            ],
-            "locations": [
-                {
-                    "location_reference": "LOC-1",
-                    "operator_reference": "OP-1",
-                    "country_reference": "GB",
-                    "postal_code": "E14 5AB",
-                    "coordinates": {"lat": 51.5, "lon": -0.12},
-                    "evses": [
-                        {
-                            "physical_identifier": "EVSE-1",
-                            "status": "AVAILABLE",
-                            "connectors": [
-                                {"power": 50, "standard": "CCS2"}
-                            ],
-                        }
-                    ],
-                }
-            ],
-        }
+        # Build a small sample JSON in the new schema.
+        sample = [
+            {
+                "address": "Pennys Walk",
+                "city": "Ferndown",
+                "coordinates": {"latitude": "50.8011300", "longitude": "-1.8931400"},
+                "country": "GBR",
+                "name": "Sample Location",
+                "id": "LOC-1",
+                "postal_code": "E14 5AB",
+                "party_id": "OP-1",
+                "operator": {"name": "Operator One"},
+                "evses": [
+                    {
+                        "physical_reference": "EVSE-1",
+                        "status": "AVAILABLE",
+                        "connectors": [
+                            {
+                                "standard": "IEC_62196_T2",
+                                "max_electric_power": 7000,
+                                "max_voltage": 230,
+                                "max_amperage": 32,
+                            }
+                        ],
+                    }
+                ],
+            }
+        ]
 
-        # write the sample to a temp file and run the loader.
+        # Write the sample to a temp file and run the loader.
         with tempfile.NamedTemporaryFile(
             mode="w", suffix=".json", delete=False, encoding="utf-8"
         ) as handle:
@@ -62,9 +63,9 @@ class LoadIntegratedCommandTests(TestCase):
 
 class ApiTests(TestCase):
     def setUp(self):
-        # make a small dataset for the API test.
+        # Create a small dataset for the API test.
         operator = Operator.objects.create(reference="OP-1", name="Operator One")
-        country = Country.objects.create(reference="GB", name="United Kingdom")
+        country = Country.objects.create(reference="GBR", name="GBR")
         location = Location.objects.create(
             reference="LOC-1",
             operator=operator,
@@ -78,7 +79,7 @@ class ApiTests(TestCase):
             physical_identifier="EVSE-1",
             status="AVAILABLE",
         )
-        Connector.objects.create(evse=evse, power=50, standard="CCS2")
+        Connector.objects.create(evse=evse, power=7, standard="IEC_62196_T2")
 
     def test_locations_list_endpoint(self):
         # Call the list endpoint and check the response shape.
